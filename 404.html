@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <script>
+        // GitHub Pages 404 handler for client-side routing
+        // This handles direct navigation to routes like /personal-static-website/for-sale/item/1
+        (function() {
+            var path = window.location.pathname;
+            var hash = window.location.hash;
+            var search = window.location.search;
+            
+            // Check if we're in a redirect loop by checking sessionStorage
+            var redirectKey = 'last_404_redirect';
+            try {
+                var lastRedirect = sessionStorage.getItem(redirectKey);
+                if (lastRedirect === path) {
+                    // We're in a loop, don't redirect again
+                    // Instead, try to load the subdirectory's index.html directly
+                    var cleanPath = path.replace(/^\/+|\/+$/g, '');
+                    var segments = cleanPath.split('/').filter(function(s) { return s; });
+                    var repoIndex = segments.indexOf('personal-static-website');
+                    var appName = null;
+                    
+                    if (repoIndex >= 0 && segments.length > repoIndex + 1) {
+                        appName = segments[repoIndex + 1];
+                    } else if (segments.length > 0 && (segments[0] === 'portfolio' || segments[0] === 'for-sale')) {
+                        appName = segments[0];
+                    }
+                    
+                    if (appName) {
+                        var basePath = repoIndex >= 0 
+                            ? '/personal-static-website/' + appName + '/'
+                            : '/' + appName + '/';
+                        // Load the subdirectory's index.html via fetch and inject it
+                        fetch(basePath + 'index.html')
+                            .then(function(response) { return response.text(); })
+                            .then(function(html) {
+                                document.open();
+                                document.write(html);
+                                document.close();
+                                // Update the URL without reload
+                                window.history.replaceState({}, '', path + search + hash);
+                            })
+                            .catch(function() {
+                                // Fallback: redirect to base path
+                                window.location.replace(basePath + search + hash);
+                            });
+                        return;
+                    }
+                }
+                sessionStorage.setItem(redirectKey, path);
+            } catch(e) {
+                // Ignore if sessionStorage is not available
+            }
+            
+            // Remove leading/trailing slashes and split
+            var cleanPath = path.replace(/^\/+|\/+$/g, '');
+            var segments = cleanPath.split('/').filter(function(s) { return s; });
+            
+            // Find the repository name (personal-static-website) and the app (portfolio or for-sale)
+            var repoIndex = segments.indexOf('personal-static-website');
+            var appName = null;
+            
+            if (repoIndex >= 0 && segments.length > repoIndex + 1) {
+                appName = segments[repoIndex + 1];
+            } else if (segments.length > 0) {
+                // Fallback: check if path starts with portfolio or for-sale (without repo name)
+                if (segments[0] === 'portfolio' || segments[0] === 'for-sale') {
+                    appName = segments[0];
+                }
+            }
+            
+            if (appName === 'portfolio' || appName === 'for-sale') {
+                // Redirect to the full original path
+                // GitHub Pages should serve the subdirectory's 404.html (which is a copy of index.html)
+                // and React Router will handle the routing based on the URL
+                var redirectPath = path;
+                // Ensure the path ends with / for subdirectory routing
+                if (!redirectPath.endsWith('/') && segments.length > (repoIndex >= 0 ? repoIndex + 2 : 1)) {
+                    redirectPath += '/';
+                }
+                window.location.replace(redirectPath + search + hash);
+            } else {
+                // For root paths, redirect to root index
+                try {
+                    sessionStorage.removeItem(redirectKey);
+                } catch(e) {}
+                window.location.replace('/personal-static-website/' + search + hash);
+            }
+        })();
+    </script>
+</head>
+<body>
+    <p>Redirecting...</p>
+</body>
+</html>
+

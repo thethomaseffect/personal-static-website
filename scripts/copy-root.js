@@ -5,10 +5,20 @@ const path = require('path');
 const distDir = path.join(__dirname, '..', 'dist');
 const rootIndex = path.join(__dirname, '..', 'index.html');
 const distIndex = path.join(distDir, 'index.html');
+const root404 = path.join(__dirname, '..', '404.html');
+const dist404 = path.join(distDir, '404.html');
 
 fs.ensureDirSync(distDir);
 fs.copyFileSync(rootIndex, distIndex);
 console.log('Root index.html copied to dist');
+
+// Copy root 404.html to dist folder
+if (fs.existsSync(root404)) {
+  fs.copyFileSync(root404, dist404);
+  console.log('Root 404.html copied to dist');
+} else {
+  console.warn('Root 404.html not found at:', root404);
+}
 
 // Copy portfolio data files to dist/portfolio
 // Note: This must happen AFTER the build to avoid interfering with the build output
