@@ -36,6 +36,26 @@ function CategoryPage() {
     item.categories?.includes(categoryIdNum)
   ) || [];
 
+  // Normalize image paths to work with BASE_URL
+  const normalizeImagePath = (imagePath) => {
+    if (!imagePath) return '';
+    // Remove leading /for-sale/images/ and make it relative to BASE_URL
+    if (imagePath.startsWith('/for-sale/images/')) {
+      const filename = imagePath.replace('/for-sale/images/', '');
+      return `${import.meta.env.BASE_URL}images/${filename}`;
+    }
+    // If path is already relative (images/...), prepend BASE_URL
+    if (imagePath.startsWith('images/')) {
+      return `${import.meta.env.BASE_URL}${imagePath}`;
+    }
+    // If path is absolute but not /for-sale/, keep it as is
+    if (imagePath.startsWith('/')) {
+      return imagePath;
+    }
+    // Otherwise, prepend BASE_URL
+    return `${import.meta.env.BASE_URL}${imagePath}`;
+  };
+
   return (
     <div className="category-page">
       <Link to="/" className="back-link">← Back to Categories</Link>
@@ -53,7 +73,7 @@ function CategoryPage() {
             >
               {item.images && item.images.length > 0 && (
                 <div className="item-image">
-                  <img src={item.images[0]} alt={item[language]?.title || item.en?.title} />
+                  <img src={normalizeImagePath(item.images[0])} alt={item[language]?.title || item.en?.title} />
                 </div>
               )}
               <div className="item-content">
