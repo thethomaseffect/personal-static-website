@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './Home.css';
 
 function Home({ language }) {
@@ -49,18 +50,18 @@ function Home({ language }) {
       <section className="sections-overview">
         <h2>{text.exploreSections}</h2>
         <div className="sections-grid">
-          <a href="/personal-static-website/portfolio/work" className="section-card">
+          <Link to="/work" className="section-card">
             <h3>{text.workExperience}</h3>
             <p>{text.workExperienceDesc}</p>
-          </a>
-          <a href="/personal-static-website/portfolio/projects" className="section-card">
+          </Link>
+          <Link to="/projects" className="section-card">
             <h3>{text.programmingProjects}</h3>
             <p>{text.programmingProjectsDesc}</p>
-          </a>
-          <a href="/personal-static-website/portfolio/creative" className="section-card">
+          </Link>
+          <Link to="/creative" className="section-card">
             <h3>{text.creativeWorks}</h3>
             <p>{text.creativeWorksDesc}</p>
-          </a>
+          </Link>
         </div>
       </section>
     </div>
