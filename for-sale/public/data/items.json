@@ -3,7 +3,7 @@
     {
       "id": 1,
       "categories": [
-        1
+        2
       ],
       "active": true,
       "price": 189,
@@ -23,7 +23,7 @@
     {
       "id": 2,
       "categories": [
-        1
+        2
       ],
       "active": true,
       "price": 481,
@@ -43,7 +43,7 @@
     {
       "id": 3,
       "categories": [
-        1
+        2
       ],
       "active": true,
       "price": 375,
@@ -62,7 +62,7 @@
     {
       "id": 4,
       "categories": [
-        1
+        2
       ],
       "active": true,
       "price": 286,
@@ -82,7 +82,7 @@
     {
       "id": 5,
       "categories": [
-        1
+        2
       ],
       "active": true,
       "price": 399,
@@ -102,7 +102,7 @@
     {
       "id": 6,
       "categories": [
-        1
+        3
       ],
       "active": true,
       "price": 348,
@@ -122,7 +122,7 @@
     {
       "id": 7,
       "categories": [
-        1
+        4
       ],
       "active": true,
       "price": 325,
@@ -142,7 +142,7 @@
     {
       "id": 8,
       "categories": [
-        1
+        4
       ],
       "active": true,
       "price": 486,
@@ -162,7 +162,7 @@
     {
       "id": 9,
       "categories": [
-        1
+        4
       ],
       "active": true,
       "price": 151,
@@ -182,7 +182,7 @@
     {
       "id": 10,
       "categories": [
-        1
+        4
       ],
       "active": true,
       "price": 508,
@@ -202,7 +202,7 @@
     {
       "id": 11,
       "categories": [
-        1
+        4
       ],
       "active": true,
       "price": 446,
@@ -224,7 +224,7 @@
     {
       "id": 12,
       "categories": [
-        1
+        4
       ],
       "active": true,
       "price": 126,
@@ -246,7 +246,7 @@
     {
       "id": 13,
       "categories": [
-        1
+        4
       ],
       "active": true,
       "price": 284,
@@ -266,7 +266,7 @@
     {
       "id": 14,
       "categories": [
-        1
+        4
       ],
       "active": true,
       "price": 430,
@@ -286,7 +286,7 @@
     {
       "id": 15,
       "categories": [
-        1
+        5
       ],
       "active": true,
       "price": 470,
@@ -306,7 +306,7 @@
     {
       "id": 16,
       "categories": [
-        1
+        5
       ],
       "active": true,
       "price": 409,
@@ -326,7 +326,7 @@
     {
       "id": 17,
       "categories": [
-        1
+        2
       ],
       "active": true,
       "price": 353,
@@ -346,7 +346,7 @@
     {
       "id": 18,
       "categories": [
-        1
+        5
       ],
       "active": true,
       "price": 462,
@@ -366,7 +366,7 @@
     {
       "id": 19,
       "categories": [
-        1
+        3
       ],
       "active": true,
       "price": 533,
@@ -386,7 +386,7 @@
     {
       "id": 20,
       "categories": [
-        1
+        3
       ],
       "active": true,
       "price": 421,
@@ -406,7 +406,7 @@
     {
       "id": 21,
       "categories": [
-        1
+        4
       ],
       "active": true,
       "price": 315,
@@ -426,7 +426,7 @@
     {
       "id": 22,
       "categories": [
-        1
+        4
       ],
       "active": true,
       "price": 375,
@@ -445,7 +445,7 @@
     {
       "id": 23,
       "categories": [
-        1
+        3
       ],
       "active": true,
       "price": 158,
@@ -464,7 +464,7 @@
     {
       "id": 24,
       "categories": [
-        1
+        3
       ],
       "active": true,
       "price": 337,
@@ -484,7 +484,7 @@
     {
       "id": 25,
       "categories": [
-        1
+        5
       ],
       "active": true,
       "price": 517,
@@ -504,7 +504,7 @@
     {
       "id": 26,
       "categories": [
-        1
+        5
       ],
       "active": true,
       "price": 451,
@@ -524,7 +524,7 @@
     {
       "id": 27,
       "categories": [
-        1
+        5
       ],
       "active": true,
       "price": 410,
@@ -544,7 +544,7 @@
     {
       "id": 28,
       "categories": [
-        1
+        5
       ],
       "active": true,
       "price": 126,
@@ -564,7 +564,7 @@
     {
       "id": 29,
       "categories": [
-        1
+        4
       ],
       "active": true,
       "price": 189,
@@ -584,7 +584,7 @@
     {
       "id": 30,
       "categories": [
-        1
+        6
       ],
       "active": true,
       "price": 148,
@@ -604,7 +604,7 @@
     {
       "id": 31,
       "categories": [
-        1
+        5
       ],
       "active": true,
       "price": 291,
@@ -624,7 +624,7 @@
     {
       "id": 32,
       "categories": [
-        1
+        5
       ],
       "active": true,
       "price": 252,
@@ -644,7 +644,7 @@
     {
       "id": 33,
       "categories": [
-        1
+        7
       ],
       "active": true,
       "price": 448,
@@ -1610,7 +1610,7 @@
     {
       "id": 82,
       "categories": [
-        1
+        2
       ],
       "active": true,
       "price": 519,
@@ -1630,7 +1630,7 @@
     {
       "id": 83,
       "categories": [
-        1
+        2
       ],
       "active": true,
       "price": 465,
@@ -1650,7 +1650,7 @@
     {
       "id": 84,
       "categories": [
-        1
+        2
       ],
       "active": true,
       "price": 467,
@@ -1670,7 +1670,7 @@
     {
       "id": 85,
       "categories": [
-        1
+        2
       ],
       "active": true,
       "price": 285,
@@ -1690,7 +1690,7 @@
     {
       "id": 86,
       "categories": [
-        1
+        7
       ],
       "active": true,
       "price": 547,
@@ -1709,7 +1709,7 @@
     {
       "id": 87,
       "categories": [
-        1
+        7
       ],
       "active": true,
       "price": 313,

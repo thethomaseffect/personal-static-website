@@ -3,12 +3,12 @@
     {
       "id": 1,
       "en": {
-        "name": "Games",
-        "description": "Video games and board games"
+        "name": "Video Games",
+        "description": "Video games"
       },
       "sv": {
-        "name": "Spel",
-        "description": "Videospel och brädspel"
+        "name": "Videospel",
+        "description": "Videospel"
       },
       "icon": "🎮"
     },
@@ -23,6 +23,66 @@
         "description": "Böcker och litteratur"
       },
       "icon": "📚"
+    },
+    {
+      "id": 3,
+      "en": {
+        "name": "TTRPGs",
+        "description": "Tabletop role-playing games"
+      },
+      "sv": {
+        "name": "Rollspel",
+        "description": "Rollspel"
+      },
+      "icon": "🎲"
+    },
+    {
+      "id": 4,
+      "en": {
+        "name": "Comics and Graphic Novels",
+        "description": "Comics and graphic novels"
+      },
+      "sv": {
+        "name": "Serier och Grafiska Romaner",
+        "description": "Serier och grafiska romaner"
+      },
+      "icon": "📖"
+    },
+    {
+      "id": 5,
+      "en": {
+        "name": "Artbooks and Compendiums",
+        "description": "Art books and compendiums"
+      },
+      "sv": {
+        "name": "Konstböcker och Kompendier",
+        "description": "Konstböcker och kompendier"
+      },
+      "icon": "🎨"
+    },
+    {
+      "id": 6,
+      "en": {
+        "name": "Manga",
+        "description": "Manga"
+      },
+      "sv": {
+        "name": "Manga",
+        "description": "Manga"
+      },
+      "icon": "📘"
+    },
+    {
+      "id": 7,
+      "en": {
+        "name": "Electronics",
+        "description": "Electronics and gadgets"
+      },
+      "sv": {
+        "name": "Elektronik",
+        "description": "Elektronik och prylar"
+      },
+      "icon": "⚡"
     }
   ]
 }
