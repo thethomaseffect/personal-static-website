@@ -77,7 +77,7 @@ This will:
 
 ## Deployment
 
-The site is automatically deployed to GitHub Pages using GitHub Actions on every push to the `master` branch.
+The site is automatically deployed to GitHub Pages using GitHub Actions on every push to the `main` branch.
 
 ### GitHub Pages Setup
 
