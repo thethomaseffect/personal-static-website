@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
+  base: '/for-sale/',
   build: {
     outDir: '../dist/for-sale',
     emptyOutDir: true,
