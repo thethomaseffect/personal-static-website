@@ -34,15 +34,15 @@
     },
     {
       "name": "LinkedIn",
-      "username": "thomas-effect",
-      "url": "https://linkedin.com/in/thomas-effect",
+      "username": "thomasjamesgeraghty",
+      "url": "https://www.linkedin.com/in/thomasjamesgeraghty/",
       "icon": "💼"
     },
     {
-      "name": "Twitter",
-      "username": "thethomaseffect",
-      "url": "https://twitter.com/thethomaseffect",
-      "icon": "🐦"
+      "name": "Bluesky",
+      "username": "dmeggs",
+      "url": "https://bsky.app/profile/dmeggs.bsky.social",
+      "icon": "🌐"
     }
   ]
 }
