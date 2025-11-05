@@ -8,8 +8,8 @@
       "active": true,
       "price": 189,
       "images": [
-        "/for-sale/images/item-1-1.jpg",
-        "/for-sale/images/item-1-2.jpg"
+        "/for-sale/images/item-1-1.png",
+        "/for-sale/images/item-1-2.png"
       ],
       "en": {
         "title": "Item 1",
@@ -28,8 +28,8 @@
       "active": true,
       "price": 481,
       "images": [
-        "/for-sale/images/item-2-1.jpg",
-        "/for-sale/images/item-2-2.jpg"
+        "/for-sale/images/item-2-1.png",
+        "/for-sale/images/item-2-2.png"
       ],
       "en": {
         "title": "Item 2",
@@ -48,7 +48,7 @@
       "active": true,
       "price": 375,
       "images": [
-        "/for-sale/images/item-3-1.jpg"
+        "/for-sale/images/item-3-1.png"
       ],
       "en": {
         "title": "Item 3",
@@ -67,8 +67,8 @@
       "active": true,
       "price": 286,
       "images": [
-        "/for-sale/images/item-4-1.jpg",
-        "/for-sale/images/item-4-2.jpg"
+        "/for-sale/images/item-4-1.png",
+        "/for-sale/images/item-4-2.png"
       ],
       "en": {
         "title": "Item 4",
@@ -87,8 +87,8 @@
       "active": true,
       "price": 399,
       "images": [
-        "/for-sale/images/item-5-1.jpg",
-        "/for-sale/images/item-5-2.jpg"
+        "/for-sale/images/item-5-1.png",
+        "/for-sale/images/item-5-2.png"
       ],
       "en": {
         "title": "Item 5",
@@ -107,8 +107,8 @@
       "active": true,
       "price": 348,
       "images": [
-        "/for-sale/images/item-6-1.jpg",
-        "/for-sale/images/item-6-2.jpg"
+        "/for-sale/images/item-6-1.png",
+        "/for-sale/images/item-6-2.png"
       ],
       "en": {
         "title": "Item 6",
@@ -127,8 +127,8 @@
       "active": true,
       "price": 325,
       "images": [
-        "/for-sale/images/item-7-1.jpg",
-        "/for-sale/images/item-7-2.jpg"
+        "/for-sale/images/item-7-1.png",
+        "/for-sale/images/item-7-2.png"
       ],
       "en": {
         "title": "Item 7",
@@ -147,8 +147,8 @@
       "active": true,
       "price": 486,
       "images": [
-        "/for-sale/images/item-8-1.jpg",
-        "/for-sale/images/item-8-2.jpg"
+        "/for-sale/images/item-8-1.png",
+        "/for-sale/images/item-8-2.png"
       ],
       "en": {
         "title": "Item 8",
@@ -167,8 +167,8 @@
       "active": true,
       "price": 151,
       "images": [
-        "/for-sale/images/item-9-1.jpg",
-        "/for-sale/images/item-9-2.jpg"
+        "/for-sale/images/item-9-1.png",
+        "/for-sale/images/item-9-2.png"
       ],
       "en": {
         "title": "Item 9",
@@ -187,8 +187,8 @@
       "active": true,
       "price": 508,
       "images": [
-        "/for-sale/images/item-10-1.jpg",
-        "/for-sale/images/item-10-2.jpg"
+        "/for-sale/images/item-10-1.png",
+        "/for-sale/images/item-10-2.png"
       ],
       "en": {
         "title": "Item 10",
@@ -207,10 +207,10 @@
       "active": true,
       "price": 446,
       "images": [
-        "/for-sale/images/item-11-1.jpg",
-        "/for-sale/images/item-11-2.jpg",
-        "/for-sale/images/item-11-3.jpg",
-        "/for-sale/images/item-11-4.jpg"
+        "/for-sale/images/item-11-1.png",
+        "/for-sale/images/item-11-2.png",
+        "/for-sale/images/item-11-3.png",
+        "/for-sale/images/item-11-4.png"
       ],
       "en": {
         "title": "Item 11",
@@ -229,10 +229,10 @@
       "active": true,
       "price": 126,
       "images": [
-        "/for-sale/images/item-12-1.jpg",
-        "/for-sale/images/item-12-2.jpg",
-        "/for-sale/images/item-12-3.jpg",
-        "/for-sale/images/item-12-4.jpg"
+        "/for-sale/images/item-12-1.png",
+        "/for-sale/images/item-12-2.png",
+        "/for-sale/images/item-12-3.png",
+        "/for-sale/images/item-12-4.png"
       ],
       "en": {
         "title": "Item 12",
@@ -251,8 +251,8 @@
       "active": true,
       "price": 284,
       "images": [
-        "/for-sale/images/item-13-1.jpg",
-        "/for-sale/images/item-13-2.jpg"
+        "/for-sale/images/item-13-1.png",
+        "/for-sale/images/item-13-2.png"
       ],
       "en": {
         "title": "Item 13",
@@ -271,8 +271,8 @@
       "active": true,
       "price": 430,
       "images": [
-        "/for-sale/images/item-14-1.jpg",
-        "/for-sale/images/item-14-2.jpg"
+        "/for-sale/images/item-14-1.png",
+        "/for-sale/images/item-14-2.png"
       ],
       "en": {
         "title": "Item 14",
@@ -291,8 +291,8 @@
       "active": true,
       "price": 470,
       "images": [
-        "/for-sale/images/item-15-1.jpg",
-        "/for-sale/images/item-15-2.jpg"
+        "/for-sale/images/item-15-1.png",
+        "/for-sale/images/item-15-2.png"
       ],
       "en": {
         "title": "Item 15",
@@ -311,8 +311,8 @@
       "active": true,
       "price": 409,
       "images": [
-        "/for-sale/images/item-16-1.jpg",
-        "/for-sale/images/item-16-2.jpg"
+        "/for-sale/images/item-16-1.png",
+        "/for-sale/images/item-16-2.png"
       ],
       "en": {
         "title": "Item 16",
@@ -331,8 +331,8 @@
       "active": true,
       "price": 353,
       "images": [
-        "/for-sale/images/item-17-1.jpg",
-        "/for-sale/images/item-17-2.jpg"
+        "/for-sale/images/item-17-1.png",
+        "/for-sale/images/item-17-2.png"
       ],
       "en": {
         "title": "Item 17",
@@ -351,8 +351,8 @@
       "active": true,
       "price": 462,
       "images": [
-        "/for-sale/images/item-18-1.jpg",
-        "/for-sale/images/item-18-2.jpg"
+        "/for-sale/images/item-18-1.png",
+        "/for-sale/images/item-18-2.png"
       ],
       "en": {
         "title": "Item 18",
@@ -371,8 +371,8 @@
       "active": true,
       "price": 533,
       "images": [
-        "/for-sale/images/item-19-1.jpg",
-        "/for-sale/images/item-19-2.jpg"
+        "/for-sale/images/item-19-1.png",
+        "/for-sale/images/item-19-2.png"
       ],
       "en": {
         "title": "Item 19",
@@ -391,8 +391,8 @@
       "active": true,
       "price": 421,
       "images": [
-        "/for-sale/images/item-20-1.jpg",
-        "/for-sale/images/item-20-2.jpg"
+        "/for-sale/images/item-20-1.png",
+        "/for-sale/images/item-20-2.png"
       ],
       "en": {
         "title": "Item 20",
@@ -411,8 +411,8 @@
       "active": true,
       "price": 315,
       "images": [
-        "/for-sale/images/item-21-1.jpg",
-        "/for-sale/images/item-21-2.jpg"
+        "/for-sale/images/item-21-1.png",
+        "/for-sale/images/item-21-2.png"
       ],
       "en": {
         "title": "Item 21",
@@ -431,7 +431,7 @@
       "active": true,
       "price": 375,
       "images": [
-        "/for-sale/images/item-22-1.jpg"
+        "/for-sale/images/item-22-1.png"
       ],
       "en": {
         "title": "Item 22",
@@ -450,7 +450,7 @@
       "active": true,
       "price": 158,
       "images": [
-        "/for-sale/images/item-23-1.jpg"
+        "/for-sale/images/item-23-1.png"
       ],
       "en": {
         "title": "Item 23",
@@ -469,8 +469,8 @@
       "active": true,
       "price": 337,
       "images": [
-        "/for-sale/images/item-24-1.jpg",
-        "/for-sale/images/item-24-2.jpg"
+        "/for-sale/images/item-24-1.png",
+        "/for-sale/images/item-24-2.png"
       ],
       "en": {
         "title": "Item 24",
@@ -489,8 +489,8 @@
       "active": true,
       "price": 517,
       "images": [
-        "/for-sale/images/item-25-1.jpg",
-        "/for-sale/images/item-25-2.jpg"
+        "/for-sale/images/item-25-1.png",
+        "/for-sale/images/item-25-2.png"
       ],
       "en": {
         "title": "Item 25",
@@ -509,8 +509,8 @@
       "active": true,
       "price": 451,
       "images": [
-        "/for-sale/images/item-26-1.jpg",
-        "/for-sale/images/item-26-2.jpg"
+        "/for-sale/images/item-26-1.png",
+        "/for-sale/images/item-26-2.png"
       ],
       "en": {
         "title": "Item 26",
@@ -529,8 +529,8 @@
       "active": true,
       "price": 410,
       "images": [
-        "/for-sale/images/item-27-1.jpg",
-        "/for-sale/images/item-27-2.jpg"
+        "/for-sale/images/item-27-1.png",
+        "/for-sale/images/item-27-2.png"
       ],
       "en": {
         "title": "Item 27",
@@ -549,8 +549,8 @@
       "active": true,
       "price": 126,
       "images": [
-        "/for-sale/images/item-28-1.jpg",
-        "/for-sale/images/item-28-2.jpg"
+        "/for-sale/images/item-28-1.png",
+        "/for-sale/images/item-28-2.png"
       ],
       "en": {
         "title": "Item 28",
@@ -569,8 +569,8 @@
       "active": true,
       "price": 189,
       "images": [
-        "/for-sale/images/item-29-1.jpg",
-        "/for-sale/images/item-29-2.jpg"
+        "/for-sale/images/item-29-1.png",
+        "/for-sale/images/item-29-2.png"
       ],
       "en": {
         "title": "Item 29",
@@ -589,8 +589,8 @@
       "active": true,
       "price": 148,
       "images": [
-        "/for-sale/images/item-30-1.jpg",
-        "/for-sale/images/item-30-2.jpg"
+        "/for-sale/images/item-30-1.png",
+        "/for-sale/images/item-30-2.png"
       ],
       "en": {
         "title": "Item 30",
@@ -609,8 +609,8 @@
       "active": true,
       "price": 291,
       "images": [
-        "/for-sale/images/item-31-1.jpg",
-        "/for-sale/images/item-31-2.jpg"
+        "/for-sale/images/item-31-1.png",
+        "/for-sale/images/item-31-2.png"
       ],
       "en": {
         "title": "Item 31",
@@ -629,8 +629,8 @@
       "active": true,
       "price": 252,
       "images": [
-        "/for-sale/images/item-32-1.jpg",
-        "/for-sale/images/item-32-2.jpg"
+        "/for-sale/images/item-32-1.png",
+        "/for-sale/images/item-32-2.png"
       ],
       "en": {
         "title": "Item 32",
@@ -649,8 +649,8 @@
       "active": true,
       "price": 448,
       "images": [
-        "/for-sale/images/item-33-1.jpg",
-        "/for-sale/images/item-33-2.jpg"
+        "/for-sale/images/item-33-1.png",
+        "/for-sale/images/item-33-2.png"
       ],
       "en": {
         "title": "Item 33",
@@ -669,10 +669,10 @@
       "active": true,
       "price": 265,
       "images": [
-        "/for-sale/images/item-34-1.jpg",
-        "/for-sale/images/item-34-2.jpg",
-        "/for-sale/images/item-34-3.jpg",
-        "/for-sale/images/item-34-4.jpg"
+        "/for-sale/images/item-34-1.png",
+        "/for-sale/images/item-34-2.png",
+        "/for-sale/images/item-34-3.png",
+        "/for-sale/images/item-34-4.png"
       ],
       "en": {
         "title": "Item 34",
@@ -691,8 +691,8 @@
       "active": true,
       "price": 469,
       "images": [
-        "/for-sale/images/item-35-1.jpg",
-        "/for-sale/images/item-35-2.jpg"
+        "/for-sale/images/item-35-1.png",
+        "/for-sale/images/item-35-2.png"
       ],
       "en": {
         "title": "Item 35",
@@ -711,8 +711,8 @@
       "active": true,
       "price": 380,
       "images": [
-        "/for-sale/images/item-36-1.jpg",
-        "/for-sale/images/item-36-2.jpg"
+        "/for-sale/images/item-36-1.png",
+        "/for-sale/images/item-36-2.png"
       ],
       "en": {
         "title": "Item 36",
@@ -731,8 +731,8 @@
       "active": true,
       "price": 334,
       "images": [
-        "/for-sale/images/item-37-1.jpg",
-        "/for-sale/images/item-37-2.jpg"
+        "/for-sale/images/item-37-1.png",
+        "/for-sale/images/item-37-2.png"
       ],
       "en": {
         "title": "Item 37",
@@ -751,8 +751,8 @@
       "active": true,
       "price": 380,
       "images": [
-        "/for-sale/images/item-38-1.jpg",
-        "/for-sale/images/item-38-2.jpg"
+        "/for-sale/images/item-38-1.png",
+        "/for-sale/images/item-38-2.png"
       ],
       "en": {
         "title": "Item 38",
@@ -771,8 +771,8 @@
       "active": true,
       "price": 295,
       "images": [
-        "/for-sale/images/item-39-1.jpg",
-        "/for-sale/images/item-39-2.jpg"
+        "/for-sale/images/item-39-1.png",
+        "/for-sale/images/item-39-2.png"
       ],
       "en": {
         "title": "Item 39",
@@ -791,8 +791,8 @@
       "active": true,
       "price": 407,
       "images": [
-        "/for-sale/images/item-40-1.jpg",
-        "/for-sale/images/item-40-2.jpg"
+        "/for-sale/images/item-40-1.png",
+        "/for-sale/images/item-40-2.png"
       ],
       "en": {
         "title": "Item 40",
@@ -811,8 +811,8 @@
       "active": true,
       "price": 403,
       "images": [
-        "/for-sale/images/item-41-1.jpg",
-        "/for-sale/images/item-41-2.jpg"
+        "/for-sale/images/item-41-1.png",
+        "/for-sale/images/item-41-2.png"
       ],
       "en": {
         "title": "Item 41",
@@ -831,8 +831,8 @@
       "active": true,
       "price": 91,
       "images": [
-        "/for-sale/images/item-42-1.jpg",
-        "/for-sale/images/item-42-2.jpg"
+        "/for-sale/images/item-42-1.png",
+        "/for-sale/images/item-42-2.png"
       ],
       "en": {
         "title": "Item 42",
@@ -851,8 +851,8 @@
       "active": true,
       "price": 297,
       "images": [
-        "/for-sale/images/item-43-1.jpg",
-        "/for-sale/images/item-43-2.jpg"
+        "/for-sale/images/item-43-1.png",
+        "/for-sale/images/item-43-2.png"
       ],
       "en": {
         "title": "Item 43",
@@ -871,7 +871,7 @@
       "active": true,
       "price": 315,
       "images": [
-        "/for-sale/images/item-44-1.jpg"
+        "/for-sale/images/item-44-1.png"
       ],
       "en": {
         "title": "Item 44",
@@ -890,7 +890,7 @@
       "active": true,
       "price": 520,
       "images": [
-        "/for-sale/images/item-45-1.jpg"
+        "/for-sale/images/item-45-1.png"
       ],
       "en": {
         "title": "Item 45",
@@ -909,7 +909,7 @@
       "active": true,
       "price": 499,
       "images": [
-        "/for-sale/images/item-46-1.jpg"
+        "/for-sale/images/item-46-1.png"
       ],
       "en": {
         "title": "Item 46",
@@ -928,7 +928,7 @@
       "active": true,
       "price": 433,
       "images": [
-        "/for-sale/images/item-47-1.jpg"
+        "/for-sale/images/item-47-1.png"
       ],
       "en": {
         "title": "Item 47",
@@ -947,8 +947,8 @@
       "active": true,
       "price": 293,
       "images": [
-        "/for-sale/images/item-48-1.jpg",
-        "/for-sale/images/item-48-2.jpg"
+        "/for-sale/images/item-48-1.png",
+        "/for-sale/images/item-48-2.png"
       ],
       "en": {
         "title": "Item 48",
@@ -967,8 +967,8 @@
       "active": true,
       "price": 471,
       "images": [
-        "/for-sale/images/item-49-1.jpg",
-        "/for-sale/images/item-49-2.jpg"
+        "/for-sale/images/item-49-1.png",
+        "/for-sale/images/item-49-2.png"
       ],
       "en": {
         "title": "Item 49",
@@ -987,8 +987,8 @@
       "active": true,
       "price": 325,
       "images": [
-        "/for-sale/images/item-50-1.jpg",
-        "/for-sale/images/item-50-2.jpg"
+        "/for-sale/images/item-50-1.png",
+        "/for-sale/images/item-50-2.png"
       ],
       "en": {
         "title": "Item 50",
@@ -1007,9 +1007,9 @@
       "active": true,
       "price": 484,
       "images": [
-        "/for-sale/images/item-51-1.jpg",
-        "/for-sale/images/item-51-2.jpg",
-        "/for-sale/images/item-51-3.jpg"
+        "/for-sale/images/item-51-1.png",
+        "/for-sale/images/item-51-2.png",
+        "/for-sale/images/item-51-3.png"
       ],
       "en": {
         "title": "Item 51",
@@ -1028,8 +1028,8 @@
       "active": true,
       "price": 428,
       "images": [
-        "/for-sale/images/item-52-1.jpg",
-        "/for-sale/images/item-52-2.jpg"
+        "/for-sale/images/item-52-1.png",
+        "/for-sale/images/item-52-2.png"
       ],
       "en": {
         "title": "Item 52",
@@ -1048,8 +1048,8 @@
       "active": true,
       "price": 526,
       "images": [
-        "/for-sale/images/item-53-1.jpg",
-        "/for-sale/images/item-53-2.jpg"
+        "/for-sale/images/item-53-1.png",
+        "/for-sale/images/item-53-2.png"
       ],
       "en": {
         "title": "Item 53",
@@ -1068,8 +1068,8 @@
       "active": true,
       "price": 409,
       "images": [
-        "/for-sale/images/item-54-1.jpg",
-        "/for-sale/images/item-54-2.jpg"
+        "/for-sale/images/item-54-1.png",
+        "/for-sale/images/item-54-2.png"
       ],
       "en": {
         "title": "Item 54",
@@ -1088,8 +1088,8 @@
       "active": true,
       "price": 492,
       "images": [
-        "/for-sale/images/item-55-1.jpg",
-        "/for-sale/images/item-55-2.jpg"
+        "/for-sale/images/item-55-1.png",
+        "/for-sale/images/item-55-2.png"
       ],
       "en": {
         "title": "Item 55",
@@ -1108,8 +1108,8 @@
       "active": true,
       "price": 312,
       "images": [
-        "/for-sale/images/item-56-1.jpg",
-        "/for-sale/images/item-56-2.jpg"
+        "/for-sale/images/item-56-1.png",
+        "/for-sale/images/item-56-2.png"
       ],
       "en": {
         "title": "Item 56",
@@ -1128,7 +1128,7 @@
       "active": true,
       "price": 189,
       "images": [
-        "/for-sale/images/item-57-1.jpg"
+        "/for-sale/images/item-57-1.png"
       ],
       "en": {
         "title": "Item 57",
@@ -1147,8 +1147,8 @@
       "active": true,
       "price": 345,
       "images": [
-        "/for-sale/images/item-58-1.jpg",
-        "/for-sale/images/item-58-2.jpg"
+        "/for-sale/images/item-58-1.png",
+        "/for-sale/images/item-58-2.png"
       ],
       "en": {
         "title": "Item 58",
@@ -1167,8 +1167,8 @@
       "active": true,
       "price": 316,
       "images": [
-        "/for-sale/images/item-59-1.jpg",
-        "/for-sale/images/item-59-2.jpg"
+        "/for-sale/images/item-59-1.png",
+        "/for-sale/images/item-59-2.png"
       ],
       "en": {
         "title": "Item 59",
@@ -1187,7 +1187,7 @@
       "active": true,
       "price": 249,
       "images": [
-        "/for-sale/images/item-60-1.jpg"
+        "/for-sale/images/item-60-1.png"
       ],
       "en": {
         "title": "Item 60",
@@ -1206,7 +1206,7 @@
       "active": true,
       "price": 375,
       "images": [
-        "/for-sale/images/item-61-1.jpg"
+        "/for-sale/images/item-61-1.png"
       ],
       "en": {
         "title": "Item 61",
@@ -1225,7 +1225,7 @@
       "active": true,
       "price": 235,
       "images": [
-        "/for-sale/images/item-62-1.jpg"
+        "/for-sale/images/item-62-1.png"
       ],
       "en": {
         "title": "Item 62",
@@ -1244,8 +1244,8 @@
       "active": true,
       "price": 260,
       "images": [
-        "/for-sale/images/item-63-1.jpg",
-        "/for-sale/images/item-63-2.jpg"
+        "/for-sale/images/item-63-1.png",
+        "/for-sale/images/item-63-2.png"
       ],
       "en": {
         "title": "Item 63",
@@ -1264,8 +1264,8 @@
       "active": true,
       "price": 69,
       "images": [
-        "/for-sale/images/item-64-1.jpg",
-        "/for-sale/images/item-64-2.jpg"
+        "/for-sale/images/item-64-1.png",
+        "/for-sale/images/item-64-2.png"
       ],
       "en": {
         "title": "Item 64",
@@ -1284,7 +1284,7 @@
       "active": true,
       "price": 338,
       "images": [
-        "/for-sale/images/item-65-1.jpg"
+        "/for-sale/images/item-65-1.png"
       ],
       "en": {
         "title": "Item 65",
@@ -1303,7 +1303,7 @@
       "active": true,
       "price": 490,
       "images": [
-        "/for-sale/images/item-66-1.jpg"
+        "/for-sale/images/item-66-1.png"
       ],
       "en": {
         "title": "Item 66",
@@ -1322,8 +1322,8 @@
       "active": true,
       "price": 475,
       "images": [
-        "/for-sale/images/item-67-1.jpg",
-        "/for-sale/images/item-67-2.jpg"
+        "/for-sale/images/item-67-1.png",
+        "/for-sale/images/item-67-2.png"
       ],
       "en": {
         "title": "Item 67",
@@ -1342,7 +1342,7 @@
       "active": true,
       "price": 221,
       "images": [
-        "/for-sale/images/item-68-1.jpg"
+        "/for-sale/images/item-68-1.png"
       ],
       "en": {
         "title": "Item 68",
@@ -1361,8 +1361,8 @@
       "active": true,
       "price": 244,
       "images": [
-        "/for-sale/images/item-69-1.jpg",
-        "/for-sale/images/item-69-2.jpg"
+        "/for-sale/images/item-69-1.png",
+        "/for-sale/images/item-69-2.png"
       ],
       "en": {
         "title": "Item 69",
@@ -1381,7 +1381,7 @@
       "active": true,
       "price": 124,
       "images": [
-        "/for-sale/images/item-70-1.jpg"
+        "/for-sale/images/item-70-1.png"
       ],
       "en": {
         "title": "Item 70",
@@ -1400,7 +1400,7 @@
       "active": true,
       "price": 166,
       "images": [
-        "/for-sale/images/item-71-1.jpg"
+        "/for-sale/images/item-71-1.png"
       ],
       "en": {
         "title": "Item 71",
@@ -1419,9 +1419,9 @@
       "active": true,
       "price": 433,
       "images": [
-        "/for-sale/images/item-72-1.jpg",
-        "/for-sale/images/item-72-2.jpg",
-        "/for-sale/images/item-72-3.jpg"
+        "/for-sale/images/item-72-1.png",
+        "/for-sale/images/item-72-2.png",
+        "/for-sale/images/item-72-3.png"
       ],
       "en": {
         "title": "Item 72",
@@ -1440,7 +1440,7 @@
       "active": true,
       "price": 236,
       "images": [
-        "/for-sale/images/item-73-1.jpg"
+        "/for-sale/images/item-73-1.png"
       ],
       "en": {
         "title": "Item 73",
@@ -1459,8 +1459,8 @@
       "active": true,
       "price": 239,
       "images": [
-        "/for-sale/images/item-74-1.jpg",
-        "/for-sale/images/item-74-2.jpg"
+        "/for-sale/images/item-74-1.png",
+        "/for-sale/images/item-74-2.png"
       ],
       "en": {
         "title": "Item 74",
@@ -1479,8 +1479,8 @@
       "active": true,
       "price": 415,
       "images": [
-        "/for-sale/images/item-75-1.jpg",
-        "/for-sale/images/item-75-2.jpg"
+        "/for-sale/images/item-75-1.png",
+        "/for-sale/images/item-75-2.png"
       ],
       "en": {
         "title": "Item 75",
@@ -1499,7 +1499,7 @@
       "active": true,
       "price": 167,
       "images": [
-        "/for-sale/images/item-76-1.jpg"
+        "/for-sale/images/item-76-1.png"
       ],
       "en": {
         "title": "Item 76",
@@ -1518,8 +1518,8 @@
       "active": true,
       "price": 502,
       "images": [
-        "/for-sale/images/item-77-1.jpg",
-        "/for-sale/images/item-77-2.jpg"
+        "/for-sale/images/item-77-1.png",
+        "/for-sale/images/item-77-2.png"
       ],
       "en": {
         "title": "Item 77",
@@ -1538,8 +1538,8 @@
       "active": true,
       "price": 85,
       "images": [
-        "/for-sale/images/item-78-1.jpg",
-        "/for-sale/images/item-78-2.jpg"
+        "/for-sale/images/item-78-1.png",
+        "/for-sale/images/item-78-2.png"
       ],
       "en": {
         "title": "Item 78",
@@ -1558,7 +1558,7 @@
       "active": true,
       "price": 548,
       "images": [
-        "/for-sale/images/item-79-1.jpg"
+        "/for-sale/images/item-79-1.png"
       ],
       "en": {
         "title": "Item 79",
@@ -1577,7 +1577,7 @@
       "active": true,
       "price": 282,
       "images": [
-        "/for-sale/images/item-80-1.jpg"
+        "/for-sale/images/item-80-1.png"
       ],
       "en": {
         "title": "Item 80",
@@ -1596,7 +1596,7 @@
       "active": true,
       "price": 238,
       "images": [
-        "/for-sale/images/item-81-1.jpg"
+        "/for-sale/images/item-81-1.png"
       ],
       "en": {
         "title": "Item 81",
@@ -1615,8 +1615,8 @@
       "active": true,
       "price": 519,
       "images": [
-        "/for-sale/images/item-82-1.jpg",
-        "/for-sale/images/item-82-2.jpg"
+        "/for-sale/images/item-82-1.png",
+        "/for-sale/images/item-82-2.png"
       ],
       "en": {
         "title": "Item 82",
@@ -1635,8 +1635,8 @@
       "active": true,
       "price": 465,
       "images": [
-        "/for-sale/images/item-83-1.jpg",
-        "/for-sale/images/item-83-2.jpg"
+        "/for-sale/images/item-83-1.png",
+        "/for-sale/images/item-83-2.png"
       ],
       "en": {
         "title": "Item 83",
@@ -1655,8 +1655,8 @@
       "active": true,
       "price": 467,
       "images": [
-        "/for-sale/images/item-84-1.jpg",
-        "/for-sale/images/item-84-2.jpg"
+        "/for-sale/images/item-84-1.png",
+        "/for-sale/images/item-84-2.png"
       ],
       "en": {
         "title": "Item 84",
@@ -1675,8 +1675,8 @@
       "active": true,
       "price": 285,
       "images": [
-        "/for-sale/images/item-85-1.jpg",
-        "/for-sale/images/item-85-2.jpg"
+        "/for-sale/images/item-85-1.png",
+        "/for-sale/images/item-85-2.png"
       ],
       "en": {
         "title": "Item 85",
@@ -1695,8 +1695,8 @@
       "active": true,
       "price": 547,
       "images": [
-        "/for-sale/images/item-86-1.jpg",
-        "/for-sale/images/item-86-2.jpg"
+        "/for-sale/images/item-86-1.png",
+        "/for-sale/images/item-86-2.png"
       ],
       "en": {
         "title": "Item 86",
@@ -1715,8 +1715,8 @@
       "active": true,
       "price": 181,
       "images": [
-        "/for-sale/images/item-87-1.jpg",
-        "/for-sale/images/item-87-2.jpg"
+        "/for-sale/images/item-87-1.png",
+        "/for-sale/images/item-87-2.png"
       ],
       "en": {
         "title": "Item 87",
