@@ -29,7 +29,7 @@ function App() {
         <div className="nav-container">
           <Link to="/" className="logo">Thomas Effect</Link>
           <div className="nav-links">
-            <Link to="/" className={location.pathname === '/portfolio' || location.pathname === '/portfolio/' ? 'active' : ''}>
+            <Link to="/" className={location.pathname === '/personal-static-website/portfolio' || location.pathname === '/personal-static-website/portfolio/' ? 'active' : ''}>
               {getText('home')}
             </Link>
             <Link to="/work" className={location.pathname.includes('/work') ? 'active' : ''}>

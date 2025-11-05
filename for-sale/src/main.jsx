@@ -6,7 +6,7 @@ import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/for-sale">
+    <BrowserRouter basename="/personal-static-website/for-sale">
       <App />
     </BrowserRouter>
   </React.StrictMode>

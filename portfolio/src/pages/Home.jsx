@@ -49,15 +49,15 @@ function Home({ language }) {
       <section className="sections-overview">
         <h2>{text.exploreSections}</h2>
         <div className="sections-grid">
-          <a href="/portfolio/work" className="section-card">
+          <a href="/personal-static-website/portfolio/work" className="section-card">
             <h3>{text.workExperience}</h3>
             <p>{text.workExperienceDesc}</p>
           </a>
-          <a href="/portfolio/projects" className="section-card">
+          <a href="/personal-static-website/portfolio/projects" className="section-card">
             <h3>{text.programmingProjects}</h3>
             <p>{text.programmingProjectsDesc}</p>
           </a>
-          <a href="/portfolio/creative" className="section-card">
+          <a href="/personal-static-website/portfolio/creative" className="section-card">
             <h3>{text.creativeWorks}</h3>
             <p>{text.creativeWorksDesc}</p>
           </a>

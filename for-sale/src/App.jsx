@@ -1,4 +1,4 @@
-import { Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route, useLocation, Link } from 'react-router-dom';
 import { useState, useEffect, createContext, useContext } from 'react';
 import Home from './pages/Home';
 import CategoryPage from './pages/CategoryPage';
@@ -26,7 +26,7 @@ function App() {
       <div className="app">
         <nav className="navbar">
           <div className="nav-container">
-            <a href="/for-sale" className="logo">For Sale</a>
+            <Link to="/" className="logo">For Sale</Link>
             <div className="language-switcher">
               <button 
                 onClick={() => setLanguage('en')} 
