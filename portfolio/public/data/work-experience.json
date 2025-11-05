@@ -1,0 +1,19 @@
+{
+  "experiences": [
+    {
+      "en": {
+        "title": "Software Developer",
+        "company": "Tech Company",
+        "description": "Developed and maintained web applications using modern frameworks and technologies."
+      },
+      "sv": {
+        "title": "Mjukvaruutvecklare",
+        "company": "Tech Company",
+        "description": "Utvecklade och underhöll webbapplikationer med moderna ramverk och teknologier."
+      },
+      "period": "2020 - Present",
+      "technologies": ["React", "Node.js", "TypeScript", "PostgreSQL"]
+    }
+  ]
+}
+

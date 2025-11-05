@@ -1,0 +1,19 @@
+{
+  "projects": [
+    {
+      "en": {
+        "title": "Sample Project",
+        "description": "A sample programming project showcasing various technologies."
+      },
+      "sv": {
+        "title": "Exempelprojekt",
+        "description": "Ett exempel på ett programmeringsprojekt som visar olika teknologier."
+      },
+      "technologies": ["React", "Vite", "CSS"],
+      "links": {
+        "github": "https://github.com/thethomaseffect/sample-project"
+      }
+    }
+  ]
+}
+

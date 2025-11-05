@@ -1,0 +1,19 @@
+{
+  "works": [
+    {
+      "en": {
+        "title": "Sample Creative Work",
+        "description": "A sample creative project showcasing artistic abilities."
+      },
+      "sv": {
+        "title": "Exempel på kreativt verk",
+        "description": "Ett exempel på ett kreativt projekt som visar konstnärliga förmågor."
+      },
+      "medium": "Digital Art",
+      "links": {
+        "url": "https://example.com"
+      }
+    }
+  ]
+}
+

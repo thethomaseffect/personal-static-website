@@ -1,0 +1,29 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "en": {
+        "name": "Games",
+        "description": "Video games and board games"
+      },
+      "sv": {
+        "name": "Spel",
+        "description": "Videospel och brädspel"
+      },
+      "icon": "🎮"
+    },
+    {
+      "id": 2,
+      "en": {
+        "name": "Books",
+        "description": "Books and literature"
+      },
+      "sv": {
+        "name": "Böcker",
+        "description": "Böcker och litteratur"
+      },
+      "icon": "📚"
+    }
+  ]
+}
+

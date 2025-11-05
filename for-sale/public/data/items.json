@@ -1,0 +1,419 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "categories": [
+        1
+      ],
+      "active": true,
+      "price": 246,
+      "images": [
+        "/for-sale/images/2025-10-29 12.00.25.jpg",
+        "/for-sale/images/2025-10-29 12.00.53.jpg",
+        "/for-sale/images/2025-10-29 12.01.06.jpg",
+        "/for-sale/images/2025-10-29 12.01.11.jpg",
+        "/for-sale/images/2025-10-29 12.01.39.jpg",
+        "/for-sale/images/2025-10-29 12.02.05.jpg",
+        "/for-sale/images/2025-10-29 12.02.13.jpg",
+        "/for-sale/images/2025-10-29 12.02.23.jpg",
+        "/for-sale/images/2025-10-29 12.02.28.jpg",
+        "/for-sale/images/2025-10-29 12.02.39.jpg",
+        "/for-sale/images/2025-10-29 12.02.47.jpg",
+        "/for-sale/images/2025-10-29 12.02.57.jpg",
+        "/for-sale/images/2025-10-29 12.03.03.jpg",
+        "/for-sale/images/2025-10-29 12.03.12.jpg",
+        "/for-sale/images/2025-10-29 12.03.18.jpg",
+        "/for-sale/images/2025-10-29 12.03.30.jpg",
+        "/for-sale/images/2025-10-29 12.03.38.jpg",
+        "/for-sale/images/2025-10-29 12.03.55.jpg",
+        "/for-sale/images/2025-10-29 12.04.06.jpg",
+        "/for-sale/images/2025-10-29 12.04.24.jpg",
+        "/for-sale/images/2025-10-29 12.04.33.jpg",
+        "/for-sale/images/2025-10-29 12.04.53.jpg",
+        "/for-sale/images/2025-10-29 12.05.03.jpg",
+        "/for-sale/images/2025-10-29 12.05.24.jpg",
+        "/for-sale/images/2025-10-29 12.05.37.jpg"
+      ],
+      "en": {
+        "title": "Item 1",
+        "description": "This is item 1 with 25 photos. In good condition."
+      },
+      "sv": {
+        "title": "Artikel 1",
+        "description": "Detta är artikel 1 med 25 foton. I gott skick."
+      }
+    },
+    {
+      "id": 2,
+      "categories": [
+        1
+      ],
+      "active": true,
+      "price": 364,
+      "images": [
+        "/for-sale/images/2025-10-29 12.06.08.jpg",
+        "/for-sale/images/2025-10-29 12.06.13.jpg",
+        "/for-sale/images/2025-10-29 12.06.25.jpg",
+        "/for-sale/images/2025-10-29 12.06.32.jpg"
+      ],
+      "en": {
+        "title": "Item 2",
+        "description": "This is item 2 with 4 photos. In good condition."
+      },
+      "sv": {
+        "title": "Artikel 2",
+        "description": "Detta är artikel 2 med 4 foton. I gott skick."
+      }
+    },
+    {
+      "id": 3,
+      "categories": [
+        1
+      ],
+      "active": true,
+      "price": 356,
+      "images": [
+        "/for-sale/images/2025-10-29 12.11.52.jpg"
+      ],
+      "en": {
+        "title": "Item 3",
+        "description": "This is item 3 with 1 photo. In good condition."
+      },
+      "sv": {
+        "title": "Artikel 3",
+        "description": "Detta är artikel 3 med 1 foto. I gott skick."
+      }
+    },
+    {
+      "id": 4,
+      "categories": [
+        1
+      ],
+      "active": true,
+      "price": 275,
+      "images": [
+        "/for-sale/images/2025-10-29 12.14.02.jpg",
+        "/for-sale/images/2025-10-29 12.14.08.jpg",
+        "/for-sale/images/2025-10-29 12.14.20.jpg",
+        "/for-sale/images/2025-10-29 12.14.26.jpg",
+        "/for-sale/images/2025-10-29 12.14.48.jpg",
+        "/for-sale/images/2025-10-29 12.14.55.jpg",
+        "/for-sale/images/2025-10-29 12.15.07.jpg",
+        "/for-sale/images/2025-10-29 12.15.13.jpg",
+        "/for-sale/images/2025-10-29 12.15.36.jpg",
+        "/for-sale/images/2025-10-29 12.15.42.jpg",
+        "/for-sale/images/2025-10-29 12.15.52.jpg",
+        "/for-sale/images/2025-10-29 12.15.57.jpg",
+        "/for-sale/images/2025-10-29 12.16.09.jpg",
+        "/for-sale/images/2025-10-29 12.16.14.jpg",
+        "/for-sale/images/2025-10-29 12.16.25.jpg",
+        "/for-sale/images/2025-10-29 12.16.31.jpg",
+        "/for-sale/images/2025-10-29 12.16.54.jpg",
+        "/for-sale/images/2025-10-29 12.17.06.jpg",
+        "/for-sale/images/2025-10-29 12.17.28.jpg",
+        "/for-sale/images/2025-10-29 12.17.34.jpg",
+        "/for-sale/images/2025-10-29 12.17.48.jpg",
+        "/for-sale/images/2025-10-29 12.17.57.jpg",
+        "/for-sale/images/2025-10-29 12.18.11.jpg",
+        "/for-sale/images/2025-10-29 12.18.22.jpg",
+        "/for-sale/images/2025-10-29 12.18.40.jpg",
+        "/for-sale/images/2025-10-29 12.18.48.jpg",
+        "/for-sale/images/2025-10-29 12.19.06.jpg",
+        "/for-sale/images/2025-10-29 12.19.15.jpg",
+        "/for-sale/images/2025-10-29 12.19.28.jpg",
+        "/for-sale/images/2025-10-29 12.19.35.jpg",
+        "/for-sale/images/2025-10-29 12.19.51.jpg",
+        "/for-sale/images/2025-10-29 12.19.57.jpg",
+        "/for-sale/images/2025-10-29 12.20.11.jpg",
+        "/for-sale/images/2025-10-29 12.20.19.jpg",
+        "/for-sale/images/2025-10-29 12.20.37.jpg",
+        "/for-sale/images/2025-10-29 12.20.45.jpg"
+      ],
+      "en": {
+        "title": "Item 4",
+        "description": "This is item 4 with 36 photos. In good condition."
+      },
+      "sv": {
+        "title": "Artikel 4",
+        "description": "Detta är artikel 4 med 36 foton. I gott skick."
+      }
+    },
+    {
+      "id": 5,
+      "categories": [
+        1
+      ],
+      "active": true,
+      "price": 493,
+      "images": [
+        "/for-sale/images/2025-10-29 12.23.43.jpg",
+        "/for-sale/images/2025-10-29 12.23.50.jpg"
+      ],
+      "en": {
+        "title": "Item 5",
+        "description": "This is item 5 with 2 photos. In good condition."
+      },
+      "sv": {
+        "title": "Artikel 5",
+        "description": "Detta är artikel 5 med 2 foton. I gott skick."
+      }
+    },
+    {
+      "id": 6,
+      "categories": [
+        1
+      ],
+      "active": true,
+      "price": 185,
+      "images": [
+        "/for-sale/images/2025-10-29 12.31.34.jpg",
+        "/for-sale/images/2025-10-29 12.31.41.jpg",
+        "/for-sale/images/2025-10-29 12.31.48.jpg",
+        "/for-sale/images/2025-10-29 12.31.53.jpg",
+        "/for-sale/images/2025-10-29 12.32.00.jpg",
+        "/for-sale/images/2025-10-29 12.32.05.jpg",
+        "/for-sale/images/2025-10-29 12.32.16.jpg",
+        "/for-sale/images/2025-10-29 12.32.21.jpg",
+        "/for-sale/images/2025-10-29 12.32.28.jpg",
+        "/for-sale/images/2025-10-29 12.32.34.jpg"
+      ],
+      "en": {
+        "title": "Item 6",
+        "description": "This is item 6 with 10 photos. In good condition."
+      },
+      "sv": {
+        "title": "Artikel 6",
+        "description": "Detta är artikel 6 med 10 foton. I gott skick."
+      }
+    },
+    {
+      "id": 7,
+      "categories": [
+        1
+      ],
+      "active": true,
+      "price": 336,
+      "images": [
+        "/for-sale/images/2025-10-29 12.33.13.jpg",
+        "/for-sale/images/2025-10-29 12.33.18.jpg",
+        "/for-sale/images/2025-10-29 12.33.25.jpg",
+        "/for-sale/images/2025-10-29 12.33.30.jpg",
+        "/for-sale/images/2025-10-29 12.33.36.jpg",
+        "/for-sale/images/2025-10-29 12.33.42.jpg"
+      ],
+      "en": {
+        "title": "Item 7",
+        "description": "This is item 7 with 6 photos. In good condition."
+      },
+      "sv": {
+        "title": "Artikel 7",
+        "description": "Detta är artikel 7 med 6 foton. I gott skick."
+      }
+    },
+    {
+      "id": 8,
+      "categories": [
+        1
+      ],
+      "active": true,
+      "price": 370,
+      "images": [
+        "/for-sale/images/2025-10-29 12.34.17.jpg",
+        "/for-sale/images/2025-10-29 12.34.22.jpg",
+        "/for-sale/images/2025-10-29 12.34.31.jpg",
+        "/for-sale/images/2025-10-29 12.34.36.jpg",
+        "/for-sale/images/2025-10-29 12.34.43.jpg",
+        "/for-sale/images/2025-10-29 12.34.48.jpg",
+        "/for-sale/images/2025-10-29 12.34.59.jpg",
+        "/for-sale/images/2025-10-29 12.35.06.jpg",
+        "/for-sale/images/2025-10-29 12.35.12.jpg",
+        "/for-sale/images/2025-10-29 12.35.20.jpg",
+        "/for-sale/images/2025-10-29 12.35.25.jpg",
+        "/for-sale/images/2025-10-29 12.35.32.jpg",
+        "/for-sale/images/2025-10-29 12.35.38.jpg"
+      ],
+      "en": {
+        "title": "Item 8",
+        "description": "This is item 8 with 13 photos. In good condition."
+      },
+      "sv": {
+        "title": "Artikel 8",
+        "description": "Detta är artikel 8 med 13 foton. I gott skick."
+      }
+    },
+    {
+      "id": 9,
+      "categories": [
+        1
+      ],
+      "active": true,
+      "price": 58,
+      "images": [
+        "/for-sale/images/2025-10-29 12.38.58.jpg",
+        "/for-sale/images/2025-10-29 12.39.04.jpg",
+        "/for-sale/images/2025-10-29 12.39.13.jpg",
+        "/for-sale/images/2025-10-29 12.39.18.jpg",
+        "/for-sale/images/2025-10-29 12.39.29.jpg",
+        "/for-sale/images/2025-10-29 12.39.33.jpg",
+        "/for-sale/images/2025-10-29 12.39.40.jpg",
+        "/for-sale/images/2025-10-29 12.39.45.jpg",
+        "/for-sale/images/2025-10-29 12.40.15.jpg",
+        "/for-sale/images/2025-10-29 12.40.33.jpg",
+        "/for-sale/images/2025-10-29 12.40.45.jpg",
+        "/for-sale/images/2025-10-29 12.40.52.jpg",
+        "/for-sale/images/2025-10-29 12.40.58.jpg",
+        "/for-sale/images/2025-10-29 12.41.06.jpg",
+        "/for-sale/images/2025-10-29 12.41.11.jpg",
+        "/for-sale/images/2025-10-29 12.41.18.jpg",
+        "/for-sale/images/2025-10-29 12.41.30.jpg",
+        "/for-sale/images/2025-10-29 12.41.56.jpg",
+        "/for-sale/images/2025-10-29 12.42.08.jpg",
+        "/for-sale/images/2025-10-29 12.42.14.jpg",
+        "/for-sale/images/2025-10-29 12.42.18.jpg",
+        "/for-sale/images/2025-10-29 12.42.26.jpg",
+        "/for-sale/images/2025-10-29 12.42.32.jpg",
+        "/for-sale/images/2025-10-29 12.42.43.jpg",
+        "/for-sale/images/2025-10-29 12.42.48.jpg",
+        "/for-sale/images/2025-10-29 12.42.55.jpg"
+      ],
+      "en": {
+        "title": "Item 9",
+        "description": "This is item 9 with 26 photos. In good condition."
+      },
+      "sv": {
+        "title": "Artikel 9",
+        "description": "Detta är artikel 9 med 26 foton. I gott skick."
+      }
+    },
+    {
+      "id": 10,
+      "categories": [
+        1
+      ],
+      "active": true,
+      "price": 459,
+      "images": [
+        "/for-sale/images/2025-10-29 12.44.02.jpg",
+        "/for-sale/images/2025-10-29 12.44.07.jpg",
+        "/for-sale/images/2025-10-29 12.44.07_1.jpg",
+        "/for-sale/images/2025-10-29 12.44.14.jpg",
+        "/for-sale/images/2025-10-29 12.44.18.jpg",
+        "/for-sale/images/2025-10-29 12.44.28.jpg",
+        "/for-sale/images/2025-10-29 12.44.33.jpg",
+        "/for-sale/images/2025-10-29 12.44.44.jpg",
+        "/for-sale/images/2025-10-29 12.44.50.jpg",
+        "/for-sale/images/2025-10-29 12.44.54.jpg",
+        "/for-sale/images/2025-10-29 12.45.00.jpg",
+        "/for-sale/images/2025-10-29 12.45.04.jpg",
+        "/for-sale/images/2025-10-29 12.45.25.jpg",
+        "/for-sale/images/2025-10-29 12.45.29.jpg",
+        "/for-sale/images/2025-10-29 12.45.40.jpg",
+        "/for-sale/images/2025-10-29 12.45.45.jpg",
+        "/for-sale/images/2025-10-29 12.45.52.jpg",
+        "/for-sale/images/2025-10-29 12.46.09.jpg",
+        "/for-sale/images/2025-10-29 12.46.22.jpg",
+        "/for-sale/images/2025-10-29 12.46.27.jpg",
+        "/for-sale/images/2025-10-29 12.46.56.jpg"
+      ],
+      "en": {
+        "title": "Item 10",
+        "description": "This is item 10 with 21 photos. In good condition."
+      },
+      "sv": {
+        "title": "Artikel 10",
+        "description": "Detta är artikel 10 med 21 foton. I gott skick."
+      }
+    },
+    {
+      "id": 11,
+      "categories": [
+        1
+      ],
+      "active": true,
+      "price": 86,
+      "images": [
+        "/for-sale/images/2025-10-29 12.47.28.jpg",
+        "/for-sale/images/2025-10-29 12.47.38.jpg",
+        "/for-sale/images/2025-10-29 12.47.54.jpg",
+        "/for-sale/images/2025-10-29 12.47.59.jpg",
+        "/for-sale/images/2025-10-29 12.48.10.jpg",
+        "/for-sale/images/2025-10-29 12.48.24.jpg",
+        "/for-sale/images/2025-10-29 12.48.40.jpg"
+      ],
+      "en": {
+        "title": "Item 11",
+        "description": "This is item 11 with 7 photos. In good condition."
+      },
+      "sv": {
+        "title": "Artikel 11",
+        "description": "Detta är artikel 11 med 7 foton. I gott skick."
+      }
+    },
+    {
+      "id": 12,
+      "categories": [
+        1
+      ],
+      "active": true,
+      "price": 469,
+      "images": [
+        "/for-sale/images/2025-10-29 12.57.38.jpg",
+        "/for-sale/images/2025-10-29 12.57.44.jpg",
+        "/for-sale/images/2025-10-29 12.58.01.jpg",
+        "/for-sale/images/2025-10-29 12.58.06.jpg",
+        "/for-sale/images/2025-10-29 12.58.13.jpg",
+        "/for-sale/images/2025-10-29 12.58.18.jpg",
+        "/for-sale/images/2025-10-29 12.58.27.jpg",
+        "/for-sale/images/2025-10-29 12.58.34.jpg"
+      ],
+      "en": {
+        "title": "Item 12",
+        "description": "This is item 12 with 8 photos. In good condition."
+      },
+      "sv": {
+        "title": "Artikel 12",
+        "description": "Detta är artikel 12 med 8 foton. I gott skick."
+      }
+    },
+    {
+      "id": 13,
+      "categories": [
+        1
+      ],
+      "active": true,
+      "price": 174,
+      "images": [
+        "/for-sale/images/2025-10-29 14.24.58.jpg",
+        "/for-sale/images/2025-10-29 14.25.23.jpg"
+      ],
+      "en": {
+        "title": "Item 13",
+        "description": "This is item 13 with 2 photos. In good condition."
+      },
+      "sv": {
+        "title": "Artikel 13",
+        "description": "Detta är artikel 13 med 2 foton. I gott skick."
+      }
+    },
+    {
+      "id": 14,
+      "categories": [
+        1
+      ],
+      "active": true,
+      "price": 510,
+      "images": [
+        "/for-sale/images/2025-10-29 14.29.36.jpg",
+        "/for-sale/images/2025-10-29 14.29.40.jpg"
+      ],
+      "en": {
+        "title": "Item 14",
+        "description": "This is item 14 with 2 photos. In good condition."
+      },
+      "sv": {
+        "title": "Artikel 14",
+        "description": "Detta är artikel 14 med 2 foton. I gott skick."
+      }
+    }
+  ]
+}

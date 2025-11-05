@@ -1,0 +1,49 @@
+{
+  "en": {
+    "home": "Home",
+    "workExperience": "Work Experience",
+    "programmingProjects": "Programming Projects",
+    "creativeWorks": "Creative Works",
+    "socialLinks": "Social Links",
+    "exploreSections": "Explore",
+    "heroTitle": "Welcome to My Portfolio",
+    "heroSubtitle": "Explore my work, projects, and creative endeavors",
+    "workExperienceDesc": "My professional journey and experiences",
+    "programmingProjectsDesc": "A collection of my programming projects and technical work",
+    "creativeWorksDesc": "Showcase of my creative projects and artistic works"
+  },
+  "sv": {
+    "home": "Hem",
+    "workExperience": "Arbetserfarenhet",
+    "programmingProjects": "Programmeringsprojekt",
+    "creativeWorks": "Kreativa verk",
+    "socialLinks": "Sociala länkar",
+    "exploreSections": "Utforska",
+    "heroTitle": "Välkommen till min portfolio",
+    "heroSubtitle": "Utforska mitt arbete, projekt och kreativa satsningar",
+    "workExperienceDesc": "Min professionella resa och erfarenheter",
+    "programmingProjectsDesc": "En samling av mina programmeringsprojekt och tekniska arbete",
+    "creativeWorksDesc": "Showcase av mina kreativa projekt och konstnärliga verk"
+  },
+  "socials": [
+    {
+      "name": "GitHub",
+      "username": "thethomaseffect",
+      "url": "https://github.com/thethomaseffect",
+      "icon": "💻"
+    },
+    {
+      "name": "LinkedIn",
+      "username": "thomas-effect",
+      "url": "https://linkedin.com/in/thomas-effect",
+      "icon": "💼"
+    },
+    {
+      "name": "Twitter",
+      "username": "thethomaseffect",
+      "url": "https://twitter.com/thethomaseffect",
+      "icon": "🐦"
+    }
+  ]
+}
+
