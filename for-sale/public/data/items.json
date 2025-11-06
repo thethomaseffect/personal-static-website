@@ -424,25 +424,6 @@
       }
     },
     {
-      "id": 22,
-      "categories": [
-        4
-      ],
-      "active": true,
-      "price": 375,
-      "images": [
-        "/for-sale/images/item-22-1.png"
-      ],
-      "en": {
-        "title": "Item 22",
-        "description": "This is item 22 with 1 photo. In good condition."
-      },
-      "sv": {
-        "title": "Artikel 22",
-        "description": "Detta är artikel 22 med 1 foto. I gott skick."
-      }
-    },
-    {
       "id": 23,
       "categories": [
         3
@@ -862,25 +843,6 @@
       }
     },
     {
-      "id": 44,
-      "categories": [
-        1
-      ],
-      "active": true,
-      "price": 315,
-      "images": [
-        "/for-sale/images/item-44-1.png"
-      ],
-      "en": {
-        "title": "Item 44",
-        "description": "This is item 44 with 1 photo. In good condition."
-      },
-      "sv": {
-        "title": "Artikel 44",
-        "description": "Detta är artikel 44 med 1 foto. I gott skick."
-      }
-    },
-    {
       "id": 45,
       "categories": [
         1
@@ -1025,16 +987,15 @@
       "active": true,
       "price": 428,
       "images": [
-        "/for-sale/images/item-52-1.png",
-        "/for-sale/images/item-52-2.png"
+        "/for-sale/images/item-52-1.png"
       ],
       "en": {
         "title": "Item 52",
-        "description": "This is item 52 with 2 photos. In good condition."
+        "description": "This is item 52 with 1 photos. In good condition."
       },
       "sv": {
         "title": "Artikel 52",
-        "description": "Detta är artikel 52 med 2 foton. I gott skick."
+        "description": "Detta är artikel 52 med 1 foto. I gott skick."
       }
     },
     {
@@ -1085,16 +1046,15 @@
       "active": true,
       "price": 492,
       "images": [
-        "/for-sale/images/item-55-1.png",
-        "/for-sale/images/item-55-2.png"
+        "/for-sale/images/item-55-1.png"
       ],
       "en": {
         "title": "Item 55",
-        "description": "This is item 55 with 2 photos. In good condition."
+        "description": "This is item 55 with 1 photos. In good condition."
       },
       "sv": {
         "title": "Artikel 55",
-        "description": "Detta är artikel 55 med 2 foton. I gott skick."
+        "description": "Detta är artikel 55 med 1 foto. I gott skick."
       }
     },
     {
@@ -1105,16 +1065,15 @@
       "active": true,
       "price": 312,
       "images": [
-        "/for-sale/images/item-56-1.png",
-        "/for-sale/images/item-56-2.png"
+        "/for-sale/images/item-56-1.png"
       ],
       "en": {
         "title": "Item 56",
-        "description": "This is item 56 with 2 photos. In good condition."
+        "description": "This is item 56 with 1 photos. In good condition."
       },
       "sv": {
         "title": "Artikel 56",
-        "description": "Detta är artikel 56 med 2 foton. I gott skick."
+        "description": "Detta är artikel 56 med 1 foto. I gott skick."
       }
     },
     {
@@ -1330,25 +1289,6 @@
       }
     },
     {
-      "id": 68,
-      "categories": [
-        1
-      ],
-      "active": true,
-      "price": 221,
-      "images": [
-        "/for-sale/images/item-68-1.png"
-      ],
-      "en": {
-        "title": "Item 68",
-        "description": "This is item 68 with 1 photo. In good condition."
-      },
-      "sv": {
-        "title": "Artikel 68",
-        "description": "Detta är artikel 68 med 1 foto. I gott skick."
-      }
-    },
-    {
       "id": 69,
       "categories": [
         1
@@ -1356,54 +1296,15 @@
       "active": true,
       "price": 244,
       "images": [
-        "/for-sale/images/item-69-1.png",
-        "/for-sale/images/item-69-2.png"
+        "/for-sale/images/item-69-1.png"
       ],
       "en": {
         "title": "Item 69",
-        "description": "This is item 69 with 2 photos. In good condition."
+        "description": "This is item 69 with 1 photos. In good condition."
       },
       "sv": {
         "title": "Artikel 69",
-        "description": "Detta är artikel 69 med 2 foton. I gott skick."
-      }
-    },
-    {
-      "id": 70,
-      "categories": [
-        1
-      ],
-      "active": true,
-      "price": 124,
-      "images": [
-        "/for-sale/images/item-70-1.png"
-      ],
-      "en": {
-        "title": "Item 70",
-        "description": "This is item 70 with 1 photo. In good condition."
-      },
-      "sv": {
-        "title": "Artikel 70",
-        "description": "Detta är artikel 70 med 1 foto. I gott skick."
-      }
-    },
-    {
-      "id": 71,
-      "categories": [
-        1
-      ],
-      "active": true,
-      "price": 166,
-      "images": [
-        "/for-sale/images/item-71-1.png"
-      ],
-      "en": {
-        "title": "Item 71",
-        "description": "This is item 71 with 1 photo. In good condition."
-      },
-      "sv": {
-        "title": "Artikel 71",
-        "description": "Detta är artikel 71 med 1 foto. I gott skick."
+        "description": "Detta är artikel 69 med 1 foto. I gott skick."
       }
     },
     {
@@ -1415,35 +1316,15 @@
       "price": 433,
       "images": [
         "/for-sale/images/item-72-1.png",
-        "/for-sale/images/item-72-2.png",
-        "/for-sale/images/item-72-3.png"
+        "/for-sale/images/item-72-2.png"
       ],
       "en": {
         "title": "Item 72",
-        "description": "This is item 72 with 3 photos. In good condition."
+        "description": "This is item 72 with 2 photoss. In good condition."
       },
       "sv": {
         "title": "Artikel 72",
-        "description": "Detta är artikel 72 med 3 foton. I gott skick."
-      }
-    },
-    {
-      "id": 73,
-      "categories": [
-        1
-      ],
-      "active": true,
-      "price": 236,
-      "images": [
-        "/for-sale/images/item-73-1.png"
-      ],
-      "en": {
-        "title": "Item 73",
-        "description": "This is item 73 with 1 photo. In good condition."
-      },
-      "sv": {
-        "title": "Artikel 73",
-        "description": "Detta är artikel 73 med 1 foto. I gott skick."
+        "description": "Detta är artikel 72 med 2 foton. I gott skick."
       }
     },
     {
@@ -1454,16 +1335,15 @@
       "active": true,
       "price": 239,
       "images": [
-        "/for-sale/images/item-74-1.png",
-        "/for-sale/images/item-74-2.png"
+        "/for-sale/images/item-74-1.png"
       ],
       "en": {
         "title": "Item 74",
-        "description": "This is item 74 with 2 photos. In good condition."
+        "description": "This is item 74 with 1 photos. In good condition."
       },
       "sv": {
         "title": "Artikel 74",
-        "description": "Detta är artikel 74 med 2 foton. I gott skick."
+        "description": "Detta är artikel 74 med 1 foto. I gott skick."
       }
     },
     {
@@ -1484,25 +1364,6 @@
       "sv": {
         "title": "Artikel 75",
         "description": "Detta är artikel 75 med 2 foton. I gott skick."
-      }
-    },
-    {
-      "id": 76,
-      "categories": [
-        1
-      ],
-      "active": true,
-      "price": 167,
-      "images": [
-        "/for-sale/images/item-76-1.png"
-      ],
-      "en": {
-        "title": "Item 76",
-        "description": "This is item 76 with 1 photo. In good condition."
-      },
-      "sv": {
-        "title": "Artikel 76",
-        "description": "Detta är artikel 76 med 1 foto. I gott skick."
       }
     },
     {
@@ -1542,44 +1403,6 @@
       "sv": {
         "title": "Artikel 78",
         "description": "Detta är artikel 78 med 2 foton. I gott skick."
-      }
-    },
-    {
-      "id": 79,
-      "categories": [
-        1
-      ],
-      "active": true,
-      "price": 548,
-      "images": [
-        "/for-sale/images/item-79-1.png"
-      ],
-      "en": {
-        "title": "Item 79",
-        "description": "This is item 79 with 1 photo. In good condition."
-      },
-      "sv": {
-        "title": "Artikel 79",
-        "description": "Detta är artikel 79 med 1 foto. I gott skick."
-      }
-    },
-    {
-      "id": 80,
-      "categories": [
-        1
-      ],
-      "active": true,
-      "price": 282,
-      "images": [
-        "/for-sale/images/item-80-1.png"
-      ],
-      "en": {
-        "title": "Item 80",
-        "description": "This is item 80 with 1 photo. In good condition."
-      },
-      "sv": {
-        "title": "Artikel 80",
-        "description": "Detta är artikel 80 med 1 foto. I gott skick."
       }
     },
     {
@@ -1689,8 +1512,8 @@
       "active": true,
       "price": 547,
       "images": [
-        "/for-sale/images/item-86-1.png",
-        "/for-sale/images/item-86-2.png"
+        "/for-sale/images/item-86-2.png",
+        "/for-sale/images/item-86-3.png"
       ],
       "en": {
         "title": "Item 86",
