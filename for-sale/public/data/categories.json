@@ -10,7 +10,53 @@
         "name": "Videospel",
         "description": "Videospel"
       },
-      "icon": "🎮"
+      "icon": "🎮",
+      "subcategories": [
+        {
+          "id": "ps4",
+          "en": {
+            "name": "Playstation 4",
+            "description": "Playstation 4 games"
+          },
+          "sv": {
+            "name": "Playstation 4",
+            "description": "Playstation 4-spel"
+          }
+        },
+        {
+          "id": "3ds",
+          "en": {
+            "name": "Nintendo 3DS",
+            "description": "Nintendo 3DS games"
+          },
+          "sv": {
+            "name": "Nintendo 3DS",
+            "description": "Nintendo 3DS-spel"
+          }
+        },
+        {
+          "id": "switch",
+          "en": {
+            "name": "Nintendo Switch",
+            "description": "Nintendo Switch games"
+          },
+          "sv": {
+            "name": "Nintendo Switch",
+            "description": "Nintendo Switch-spel"
+          }
+        },
+        {
+          "id": "vita",
+          "en": {
+            "name": "Playstation Vita",
+            "description": "Playstation Vita games"
+          },
+          "sv": {
+            "name": "Playstation Vita",
+            "description": "Playstation Vita-spel"
+          }
+        }
+      ]
     },
     {
       "id": 2,

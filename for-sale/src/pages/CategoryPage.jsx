@@ -9,6 +9,7 @@ function CategoryPage() {
   const [categories, setCategories] = useState(null);
   const [items, setItems] = useState(null);
   const [category, setCategory] = useState(null);
+  const [selectedSubcategory, setSelectedSubcategory] = useState(null);
 
   useEffect(() => {
     Promise.all([
@@ -26,15 +27,30 @@ function CategoryPage() {
       .catch(err => console.error('Failed to load data:', err));
   }, [categoryId]);
 
+  // Reset subcategory selection when category changes
+  useEffect(() => {
+    setSelectedSubcategory(null);
+  }, [categoryId]);
+
   if (!content || !categories || !items || !category) {
     return <div className="loading">Loading...</div>;
   }
 
   const categoryIdNum = parseInt(categoryId);
-  const activeItems = items.items?.filter(item => 
+  const subcategories = category.subcategories || [];
+  
+  // Filter items by category and optionally by subcategory
+  let activeItems = items.items?.filter(item => 
     item.active !== false && 
     item.categories?.includes(categoryIdNum)
   ) || [];
+  
+  // If a subcategory is selected, filter by it
+  if (selectedSubcategory) {
+    activeItems = activeItems.filter(item => 
+      item.subcategory === selectedSubcategory
+    );
+  }
 
   // Normalize image paths to work with BASE_URL
   const normalizeImagePath = (imagePath) => {
@@ -61,8 +77,29 @@ function CategoryPage() {
       <Link to="/" className="back-link">← Back to Categories</Link>
       <h1>{category[language]?.name || category.en?.name}</h1>
       
+      {/* Subcategory filters */}
+      {subcategories.length > 0 && (
+        <div className="subcategory-filters">
+          <button
+            className={`subcategory-filter ${selectedSubcategory === null ? 'active' : ''}`}
+            onClick={() => setSelectedSubcategory(null)}
+          >
+            All
+          </button>
+          {subcategories.map((subcat) => (
+            <button
+              key={subcat.id}
+              className={`subcategory-filter ${selectedSubcategory === subcat.id ? 'active' : ''}`}
+              onClick={() => setSelectedSubcategory(subcat.id)}
+            >
+              {subcat[language]?.name || subcat.en?.name}
+            </button>
+          ))}
+        </div>
+      )}
+      
       {activeItems.length === 0 ? (
-        <p className="no-items">No items available in this category.</p>
+        <p className="no-items">No items available{selectedSubcategory ? ' in this subcategory' : ' in this category'}.</p>
       ) : (
         <div className="items-grid">
           {activeItems.map((item) => (

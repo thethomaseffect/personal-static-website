@@ -32,6 +32,38 @@
   color: #333;
 }
 
+.subcategory-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.subcategory-filter {
+  padding: 0.5rem 1.25rem;
+  border: 2px solid #e0e0e0;
+  background: white;
+  border-radius: 25px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #666;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.subcategory-filter:hover {
+  border-color: #667eea;
+  color: #667eea;
+}
+
+.subcategory-filter.active {
+  background: #667eea;
+  border-color: #667eea;
+  color: white;
+}
+
 .no-items {
   text-align: center;
   padding: 3rem;
