@@ -83,7 +83,30 @@
         "description": "Elektronik och prylar"
       },
       "icon": "⚡"
+    },
+    {
+      "id": 8,
+      "en": {
+        "name": "Other",
+        "description": "Other items"
+      },
+      "sv": {
+        "name": "Övrigt",
+        "description": "Övriga artiklar"
+      },
+      "icon": "📦"
+    },
+    {
+      "id": 9,
+      "en": {
+        "name": "Board Games",
+        "description": "Board games"
+      },
+      "sv": {
+        "name": "Brädspel",
+        "description": "Brädspel"
+      },
+      "icon": "🎯"
     }
   ]
 }
-
