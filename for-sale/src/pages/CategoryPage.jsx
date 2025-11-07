@@ -1,15 +1,47 @@
-import { useState, useEffect } from 'react';
-import { useParams, Link } from 'react-router-dom';
-import { useLanguage } from '../App';
+import { useState, useEffect, useRef, useLayoutEffect } from 'react';
+import { useParams, Link, useSearchParams, useLocation } from 'react-router-dom';
+import { useLanguage, usePreserveLanguage } from '../App';
 import './CategoryPage.css';
 
 function CategoryPage() {
   const { categoryId } = useParams();
+  const [searchParams, setSearchParams] = useSearchParams();
+  const location = useLocation();
   const { language, content } = useLanguage();
+  const { addLanguageToPath } = usePreserveLanguage();
   const [categories, setCategories] = useState(null);
   const [items, setItems] = useState(null);
   const [category, setCategory] = useState(null);
-  const [selectedSubcategory, setSelectedSubcategory] = useState(null);
+  const scrollPositionRef = useRef(0);
+  const isChangingSubcategory = useRef(false);
+  const itemsGridRef = useRef(null);
+  const hasRestoredRef = useRef(false);
+  const lastViewKeyRef = useRef('');
+  const isRestoringRef = useRef(false);
+  const periodicSaveEnabledRef = useRef(true);
+
+  // Get subcategory from URL query params
+  const selectedSubcategory = searchParams.get('subcategory') || null;
+  const currentViewKey = `${categoryId}-${selectedSubcategory || 'all'}`;
+  
+  // Check immediately (synchronously) if we should restore - before any effects run
+  const scrollKey = `category-${categoryId}-${selectedSubcategory || 'all'}-scroll`;
+  const savedScrollPosition = sessionStorage.getItem(scrollKey);
+  if (savedScrollPosition) {
+    const scrollValue = parseInt(savedScrollPosition, 10);
+    if (!isNaN(scrollValue) && scrollValue > 0) {
+      isRestoringRef.current = true;
+      hasRestoredRef.current = false;
+      periodicSaveEnabledRef.current = false;
+    }
+  }
+
+  // Disable browser's automatic scroll restoration
+  useEffect(() => {
+    if ('scrollRestoration' in window.history) {
+      window.history.scrollRestoration = 'manual';
+    }
+  }, []);
 
   useEffect(() => {
     Promise.all([
@@ -27,15 +59,168 @@ function CategoryPage() {
       .catch(err => console.error('Failed to load data:', err));
   }, [categoryId]);
 
-  // Reset subcategory selection when category changes
+  // Get scroll key for current category/subcategory
+  const getScrollKey = () => {
+    return `category-${categoryId}-${selectedSubcategory || 'all'}-scroll`;
+  };
+
+  // Save scroll position immediately (but not during restoration)
+  const saveScrollPosition = () => {
+    // Don't save if periodic save is disabled (during restoration check)
+    if (!periodicSaveEnabledRef.current) {
+      return;
+    }
+    // Don't save if we're currently restoring - this prevents overwriting the saved position
+    if (isRestoringRef.current) {
+      return;
+    }
+    const scrollKey = getScrollKey();
+    const currentScroll = window.scrollY;
+    
+    // Never save scroll position 0 - that's the default, no need to store it
+    if (currentScroll === 0) {
+      return;
+    }
+    
+    sessionStorage.setItem(scrollKey, currentScroll.toString());
+    scrollPositionRef.current = currentScroll;
+  };
+
+  // Reset restoration flag when view changes
   useEffect(() => {
-    setSelectedSubcategory(null);
-  }, [categoryId]);
+    if (lastViewKeyRef.current !== currentViewKey) {
+      hasRestoredRef.current = false;
+      lastViewKeyRef.current = currentViewKey;
+    }
+  }, [currentViewKey]);
+
+  // Re-check on navigation changes (this is a backup to the synchronous check above)
+  useEffect(() => {
+    const scrollKey = getScrollKey();
+    const savedScrollPosition = sessionStorage.getItem(scrollKey);
+    
+    if (savedScrollPosition) {
+      const scrollValue = parseInt(savedScrollPosition, 10);
+      if (!isNaN(scrollValue) && scrollValue > 0) {
+        isRestoringRef.current = true;
+        hasRestoredRef.current = false;
+        periodicSaveEnabledRef.current = false;
+      }
+    } else {
+      isRestoringRef.current = false;
+      periodicSaveEnabledRef.current = true;
+    }
+  }, [categoryId, selectedSubcategory, location.pathname]);
+
+  // Restore scroll position when items are loaded
+  useEffect(() => {
+    if (!items || !category) return;
+    
+    // Don't restore if we're changing subcategory
+    if (isChangingSubcategory.current) {
+      isChangingSubcategory.current = false;
+      hasRestoredRef.current = true;
+      isRestoringRef.current = false;
+      return;
+    }
+    
+    // Don't restore if we've already restored for this view
+    if (hasRestoredRef.current) return;
+    
+    const scrollKey = getScrollKey();
+    const savedScrollPosition = sessionStorage.getItem(scrollKey);
+    
+    if (savedScrollPosition) {
+      const scrollValue = parseInt(savedScrollPosition, 10);
+      if (!isNaN(scrollValue) && scrollValue > 0) {
+        // Restore immediately - try right away
+        const restore = () => {
+          window.scrollTo(0, scrollValue);
+          hasRestoredRef.current = true;
+          // Allow saving again after a delay
+          setTimeout(() => {
+            isRestoringRef.current = false;
+            periodicSaveEnabledRef.current = true;
+          }, 500);
+        };
+        
+        // Try immediately
+        const grid = itemsGridRef.current || document.querySelector('.items-grid');
+        if (grid && grid.children.length > 0) {
+          restore();
+        } else {
+          // If grid not ready, try a few times quickly
+          let attempts = 0;
+          const checkAndRestore = setInterval(() => {
+            attempts++;
+            const grid = itemsGridRef.current || document.querySelector('.items-grid');
+            if ((grid && grid.children.length > 0) || attempts > 10) {
+              clearInterval(checkAndRestore);
+              restore();
+            }
+          }, 20);
+        }
+      } else {
+        hasRestoredRef.current = true;
+        isRestoringRef.current = false;
+        periodicSaveEnabledRef.current = true;
+      }
+    } else {
+      hasRestoredRef.current = true;
+      isRestoringRef.current = false;
+      periodicSaveEnabledRef.current = true;
+    }
+  }, [items, category, categoryId, selectedSubcategory, currentViewKey]);
+
+  // Save scroll position on scroll and periodically
+  useEffect(() => {
+    const handleScroll = () => {
+      scrollPositionRef.current = window.scrollY;
+    };
+
+    // Save scroll position periodically
+    const scrollInterval = setInterval(() => {
+      saveScrollPosition();
+    }, 500);
+
+    window.addEventListener('scroll', handleScroll);
+    
+    // Save scroll position when leaving the page
+    const handleBeforeUnload = () => {
+      saveScrollPosition();
+    };
+    window.addEventListener('beforeunload', handleBeforeUnload);
+
+    return () => {
+      clearInterval(scrollInterval);
+      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('beforeunload', handleBeforeUnload);
+      // Save final scroll position
+      saveScrollPosition();
+    };
+  }, [categoryId, selectedSubcategory]);
+
+  // Function to update subcategory in URL (preserves language parameter)
+  const handleSubcategoryChange = (subcategoryId) => {
+    isChangingSubcategory.current = true;
+    const newSearchParams = new URLSearchParams(searchParams);
+    if (subcategoryId) {
+      newSearchParams.set('subcategory', subcategoryId);
+    } else {
+      newSearchParams.delete('subcategory');
+    }
+    // Language parameter is already in searchParams, so it will be preserved
+    setSearchParams(newSearchParams, { replace: true });
+    // Reset scroll when changing subcategory
+    window.scrollTo(0, 0);
+    scrollPositionRef.current = 0;
+  };
 
   if (!content || !categories || !items || !category) {
     return <div className="loading">Loading...</div>;
   }
 
+  const text = content[language] || content.en;
   const categoryIdNum = parseInt(categoryId);
   const subcategories = category.subcategories || [];
   
@@ -74,7 +259,7 @@ function CategoryPage() {
 
   return (
     <div className="category-page">
-      <Link to="/" className="back-link">← Back to Categories</Link>
+      <Link to={addLanguageToPath("/")} className="back-link">{text.backToCategories}</Link>
       <h1>{category[language]?.name || category.en?.name}</h1>
       
       {/* Subcategory filters */}
@@ -82,7 +267,7 @@ function CategoryPage() {
         <div className="subcategory-filters">
           <button
             className={`subcategory-filter ${selectedSubcategory === null ? 'active' : ''}`}
-            onClick={() => setSelectedSubcategory(null)}
+            onClick={() => handleSubcategoryChange(null)}
           >
             All
           </button>
@@ -90,7 +275,7 @@ function CategoryPage() {
             <button
               key={subcat.id}
               className={`subcategory-filter ${selectedSubcategory === subcat.id ? 'active' : ''}`}
-              onClick={() => setSelectedSubcategory(subcat.id)}
+              onClick={() => handleSubcategoryChange(subcat.id)}
             >
               {subcat[language]?.name || subcat.en?.name}
             </button>
@@ -101,12 +286,13 @@ function CategoryPage() {
       {activeItems.length === 0 ? (
         <p className="no-items">No items available{selectedSubcategory ? ' in this subcategory' : ' in this category'}.</p>
       ) : (
-        <div className="items-grid">
+        <div className="items-grid" ref={itemsGridRef}>
           {activeItems.map((item) => (
             <Link
               key={item.id}
-              to={`/item/${item.id}`}
+              to={addLanguageToPath(`/item/${item.id}`)}
               className="item-card"
+              onClick={saveScrollPosition}
             >
               {item.images && item.images.length > 0 && (
                 <div className="item-image">

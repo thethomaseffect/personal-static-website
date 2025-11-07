@@ -1,10 +1,11 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { useLanguage } from '../App';
+import { useLanguage, usePreserveLanguage } from '../App';
 import './Home.css';
 
 function Home() {
   const { language, content } = useLanguage();
+  const { addLanguageToPath } = usePreserveLanguage();
   const [categories, setCategories] = useState(null);
 
   useEffect(() => {
@@ -30,7 +31,7 @@ function Home() {
         {categoryList.map((category) => (
           <Link
             key={category.id}
-            to={`/category/${category.id}`}
+            to={addLanguageToPath(`/category/${category.id}`)}
             className="category-card"
           >
             <div className="category-icon">{category.icon || '📦'}</div>

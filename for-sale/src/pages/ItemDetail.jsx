@@ -1,12 +1,13 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { useLanguage } from '../App';
+import { useLanguage, usePreserveLanguage } from '../App';
 import Lightbox from '../components/Lightbox';
 import './ItemDetail.css';
 
 function ItemDetail() {
   const { itemId } = useParams();
   const { language, content } = useLanguage();
+  const { addLanguageToPath } = usePreserveLanguage();
   const [item, setItem] = useState(null);
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [lightboxIndex, setLightboxIndex] = useState(0);
@@ -68,10 +69,22 @@ function ItemDetail() {
     setLightboxIndex((prev) => (prev - 1 + images.length) % images.length);
   };
 
+  // Build back link with subcategory query parameter if item has one
+  const getBackLink = () => {
+    const categoryId = item.categories?.[0];
+    if (!categoryId) return addLanguageToPath('/');
+    
+    let backLink = `/category/${categoryId}`;
+    if (item.subcategory) {
+      backLink += `?subcategory=${item.subcategory}`;
+    }
+    return addLanguageToPath(backLink);
+  };
+
   return (
     <div className="item-detail">
-      <Link to={`/category/${item.categories?.[0]}`} className="back-link">
-        ← Back to Category
+      <Link to={getBackLink()} className="back-link">
+        {text.backToCategory}
       </Link>
 
       <div className="item-detail-content">
