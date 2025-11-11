@@ -803,7 +803,7 @@
         "/for-sale/images/item-41-2.png"
       ],
       "en": {
-        "title": "Final Fantasy XIV Stormblood (Box Only",
+        "title": "Final Fantasy XIV Stormblood (Box Only)",
         "description": "Final Fantasy XIV: Stormblood is the second expansion pack to Final Fantasy XIV: A Realm Reborn, a massively multiplayer online role-playing game (MMORPG) developed and published by Square Enix for macOS, PlayStation 4, and Windows, then later on PlayStation 5 and Xbox Series X/S. It was released on June 20, 2017, just under two years after Heavensward, the previous expansion. Like for its predecessor, Naoki Yoshida served as director and producer and Masayoshi Soken composed the soundtrack, with Nobuo Uematsu contributing the theme song. The expansion pack was released as a standalone product for current players; for new players, the \"Complete Edition\" of Final Fantasy XIV that originally launched with Heavensward was updated to include both expansions. In order to make necessary engine improvements, service for the PlayStation 3 game client was terminated with the expansion's early access period. A special upgrade campaign allowed affected players to obtain the PlayStation 4 version for free."
       },
       "sv": {
@@ -824,7 +824,7 @@
         "/for-sale/images/item-42-2.png"
       ],
       "en": {
-        "title": "Final Fantasy XIV Heavensward (Box Only",
+        "title": "Final Fantasy XIV Heavensward (Box Only)",
         "description": "Final Fantasy XIV: Heavensward is the first expansion pack to Final Fantasy XIV: A Realm Reborn, a massively multiplayer online role-playing game (MMORPG) developed and published by Square Enix for macOS, PlayStation 3, PlayStation 4, and Windows, then later on PlayStation 5 and Xbox Series X/S. It was released on June 23, 2015, nearly two years after the debut of A Realm Reborn. Naoki Yoshida served as director and producer and Nobuo Uematsu, who had not worked on the title since the ill-fated 2010 launch of the original Final Fantasy XIV, returned to collaborate with Masayoshi Soken on the soundtrack. The expansion pack was released as a standalone product for current players, as well as an \"all-in-one\" bundle containing A Realm Reborn and Heavensward. The latter was the only way to access the OS X version of the game, which premiered on the same day as the expansion pack's launch."
       },
       "sv": {
@@ -1675,7 +1675,7 @@
     {
       "id": 88,
       "categories": [
-        3
+        5
       ],
       "active": true,
       "price": 158,
