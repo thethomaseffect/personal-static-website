@@ -237,6 +237,13 @@ function CategoryPage() {
     );
   }
 
+  // Sort items alphabetically by title
+  activeItems = activeItems.sort((a, b) => {
+    const titleA = (a[language]?.title || a.en?.title || '').toLowerCase();
+    const titleB = (b[language]?.title || b.en?.title || '').toLowerCase();
+    return titleA.localeCompare(titleB);
+  });
+
   // Normalize image paths to work with BASE_URL
   const normalizeImagePath = (imagePath) => {
     if (!imagePath) return '';
