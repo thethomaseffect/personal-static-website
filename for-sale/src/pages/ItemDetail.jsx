@@ -31,6 +31,23 @@ function ItemDetail() {
   }
 
   const text = content[language] || content.en;
+  
+  // Helper function to get item title - always use English unless non-placeholder translation exists
+  const getItemTitle = (item) => {
+    // Always prefer English title
+    if (item.en?.title) {
+      return item.en.title;
+    }
+    // Only use other language if it's not empty and not a placeholder (like "Artikel X")
+    const otherLangTitle = item[language]?.title;
+    if (otherLangTitle && otherLangTitle.trim() !== '' && !otherLangTitle.match(/^Artikel\s+\d+$/i)) {
+      return otherLangTitle;
+    }
+    // Fallback to English
+    return item.en?.title || '';
+  };
+  
+  const itemTitle = getItemTitle(item);
   const itemText = item[language] || item.en || {};
   const rawImages = item.images || [];
   
@@ -106,7 +123,7 @@ function ItemDetail() {
               <div className="main-image">
                 <img
                   src={images[0]}
-                  alt={itemText.title}
+                  alt={itemTitle}
                   onClick={() => openLightbox(0)}
                 />
               </div>
@@ -116,7 +133,7 @@ function ItemDetail() {
                     <img
                       key={index + 1}
                       src={img}
-                      alt={`${itemText.title} ${index + 2}`}
+                      alt={`${itemTitle} ${index + 2}`}
                       onClick={() => openLightbox(index + 1)}
                     />
                   ))}
@@ -129,7 +146,7 @@ function ItemDetail() {
         </div>
 
         <div className="item-info">
-          <h1>{itemText.title}</h1>
+          <h1>{itemTitle}</h1>
           <div className="item-price">{item.price} SEK</div>
 
           <div className="item-description">
@@ -170,7 +187,7 @@ function ItemDetail() {
           onClose={closeLightbox}
           onNext={nextImage}
           onPrev={prevImage}
-          title={itemText.title}
+          title={itemTitle}
         />
       )}
     </div>

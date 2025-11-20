@@ -265,6 +265,21 @@ function CategoryPage() {
     return titleA.localeCompare(titleB);
   });
 
+  // Helper function to get item title - always use English unless non-placeholder translation exists
+  const getItemTitle = (item) => {
+    // Always prefer English title
+    if (item.en?.title) {
+      return item.en.title;
+    }
+    // Only use other language if it's not empty and not a placeholder (like "Artikel X")
+    const otherLangTitle = item[language]?.title;
+    if (otherLangTitle && otherLangTitle.trim() !== '' && !otherLangTitle.match(/^Artikel\s+\d+$/i)) {
+      return otherLangTitle;
+    }
+    // Fallback to English
+    return item.en?.title || '';
+  };
+
   // Normalize image paths to work with BASE_URL
   const normalizeImagePath = (imagePath) => {
     if (!imagePath) return '';
@@ -327,11 +342,11 @@ function CategoryPage() {
             >
               {item.images && item.images.length > 0 && (
                 <div className="item-image">
-                  <img src={normalizeImagePath(item.images[0])} alt={item[language]?.title || item.en?.title} loading="lazy" />
+                  <img src={normalizeImagePath(item.images[0])} alt={getItemTitle(item)} loading="lazy" />
                 </div>
               )}
               <div className="item-content">
-                <h2>{item[language]?.title || item.en?.title}</h2>
+                <h2>{getItemTitle(item)}</h2>
                 <div className="item-price">{item.price} SEK</div>
               </div>
             </Link>
