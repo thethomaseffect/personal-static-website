@@ -106,6 +106,7 @@
 }
 
 .item-description,
+.item-condition,
 .item-terms {
   margin-bottom: 2rem;
   padding-bottom: 2rem;
@@ -113,6 +114,7 @@
 }
 
 .item-description:last-child,
+.item-condition:last-child,
 .item-terms:last-child {
   border-bottom: none;
 }
@@ -129,6 +131,38 @@
   color: #555;
   line-height: 1.8;
   white-space: pre-line;
+}
+
+.item-condition {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.condition-label {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.condition-value {
+  font-weight: 500;
+}
+
+.condition-good {
+  color: #22c55e;
+}
+
+.condition-acceptable {
+  color: #f59e0b;
+}
+
+.quality-notes {
+  color: #666;
+  font-style: italic;
+  font-size: 0.95rem;
+  margin: 0;
+  line-height: 1.6;
 }
 
 .loading {

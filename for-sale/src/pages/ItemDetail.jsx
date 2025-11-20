@@ -9,26 +9,38 @@ function ItemDetail() {
   const { language, content } = useLanguage();
   const { addLanguageToPath } = usePreserveLanguage();
   const [item, setItem] = useState(null);
+  const [conditions, setConditions] = useState(null);
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [lightboxIndex, setLightboxIndex] = useState(0);
 
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}data/items.json`)
-      .then(res => res.json())
-      .then(data => {
-        const foundItem = data.items?.find(i => i.id === parseInt(itemId));
+    Promise.all([
+      fetch(`${import.meta.env.BASE_URL}data/items.json`).then(res => res.json()),
+      fetch(`${import.meta.env.BASE_URL}data/conditions.json`).then(res => res.json())
+    ])
+      .then(([itemsData, conditionsData]) => {
+        const foundItem = itemsData.items?.find(i => i.id === parseInt(itemId));
         setItem(foundItem);
+        setConditions(conditionsData);
       })
-      .catch(err => console.error('Failed to load item:', err));
+      .catch(err => console.error('Failed to load data:', err));
   }, [itemId]);
 
-  if (!content || !item) {
+  if (!content || !item || !conditions) {
     return <div className="loading">Loading...</div>;
   }
 
   const text = content[language] || content.en;
   const itemText = item[language] || item.en || {};
   const rawImages = item.images || [];
+  
+  // Get condition name (only if condition is a valid integer between 1-5)
+  const conditionId = item.condition;
+  // Convert to integer and validate it's between 1-5
+  const conditionIdNum = conditionId !== undefined && conditionId !== null ? parseInt(conditionId, 10) : 0;
+  const isValidCondition = !isNaN(conditionIdNum) && conditionIdNum >= 1 && conditionIdNum <= 5;
+  const condition = isValidCondition ? conditions.conditions?.find(c => c.id === conditionIdNum) : null;
+  const conditionName = condition ? (condition[language]?.name || condition.en?.name) : null;
 
   // Normalize image paths to work with BASE_URL
   const normalizeImagePath = (imagePath) => {
@@ -124,6 +136,17 @@ function ItemDetail() {
             <h2>{text.descriptionLabel}</h2>
             <p>{itemText.description}</p>
           </div>
+
+          {conditionName && (
+            <div className="item-condition">
+              <span className="condition-label">
+                {text.conditionLabel}: <span className={`condition-value ${conditionIdNum === 5 ? 'condition-acceptable' : 'condition-good'}`}>{conditionName}</span>
+              </span>
+              {isValidCondition && item.qualityNotes && item.qualityNotes !== "" && (
+                <p className="quality-notes">{item.qualityNotes}</p>
+              )}
+            </div>
+          )}
 
           <div className="item-terms">
             <h2>{text.termsTitle}</h2>
