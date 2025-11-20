@@ -142,8 +142,16 @@ function ItemDetail() {
               <span className="condition-label">
                 {text.conditionLabel}: <span className={`condition-value ${conditionIdNum === 5 ? 'condition-acceptable' : 'condition-good'}`}>{conditionName}</span>
               </span>
-              {isValidCondition && item.qualityNotes && item.qualityNotes !== "" && (
-                <p className="quality-notes">{item.qualityNotes}</p>
+              {isValidCondition && item.qualityNotes && (
+                (typeof item.qualityNotes === 'object' 
+                  ? (item.qualityNotes[language] || item.qualityNotes.en || '')
+                  : item.qualityNotes) !== "" && (
+                  <p className="quality-notes">
+                    {typeof item.qualityNotes === 'object' 
+                      ? (item.qualityNotes[language] || item.qualityNotes.en || '')
+                      : item.qualityNotes}
+                  </p>
+                )
               )}
             </div>
           )}

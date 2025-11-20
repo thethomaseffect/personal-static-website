@@ -8,7 +8,10 @@
       "active": true,
       "price": 200,
       "condition": 4,
-      "qualityNotes": "Some damage to plastic covering on Mostly Void, Partially Stars",
+      "qualityNotes": {
+        "en": "Some damage to plastic covering on Mostly Void, Partially Stars",
+        "sv": "Någon skada på plastomslaget på Mostly Void, Partially Stars"
+      },
       "images": [
         "/for-sale/images/item-1-1.png",
         "/for-sale/images/item-1-2.png"
@@ -42,7 +45,10 @@
         "description": "Från drakar och wyverns till vampyrer, varulvar och busiga gremlins, pixies och älvor, Brevertons Phantasmagoria är en unik samling av över 250 mytiska djur.\n\nGör dig redo att återbesöka välbekanta myter, såsom vampyrer, varulvar och Loch Ness-monstret, Minotauros och Medusa från grekisk legend, och bibliska bestar som Behemoth och Leviathan. Upptäck nya mystiska djur som de jättelika ormarna i Centralamerika, den dödliga mongoliska dödsmasken och Ennedi-tigern i Afrika, och undersök bevisen för observationer av Bigfoot och den tillbakadragna Yeti.\n\nFullpackad med originella linjeillustrationer och en rikedom av konstig och underbar information, Brevertons Phantasmagoria kartlägger jorden för att avslöja över 250 imaginära varelser som gått i arv från generation till generation."
       },
       "condition": 1,
-      "qualityNotes": ""
+      "qualityNotes": {
+        "en": "",
+        "sv": ""
+      }
     },
     {
       "id": 3,
@@ -64,7 +70,10 @@
         "description": "Den ultimata guiden till monsterflickor som tog fandomen med storm - endast för mogna fans! Monster Girl Encyclopedia Volym 1 och 2 är en serie mycket detaljerade illustrerade böcker som innehåller profiler av ondskefulla lasciva monsterflickor. Betraktad av många fans som den definitiva källan för sexiga monsterflickor och de världar de bebor, Monster Girl Encyclopedia är ett måste för fans av Monster Musume, Nurse Hitomis Monster Infirmary och andra monstertitlar. Dessa lyxiga, stora inbundna volymer med foliehöjdpunkter inkluderar sidor med djupgående biografier, vackra färgillustrationer, många frestande svartvita spotillustrationer, diagram och mer. Berättat ur perspektivet av en vandrande monsterflickscholar, dessa livliga illustrerade sidor lär oss om sensuella älvor, dvärgar, succubi, kentaurer, sjöjungfrur och mycket mer, som du aldrig sett dem förut."
       },
       "condition": 1,
-      "qualityNotes": ""
+      "qualityNotes": {
+        "en": "",
+        "sv": ""
+      }
     },
     {
       "id": 4,
@@ -86,7 +95,10 @@
         "description": "Megg är en deprimerad, drogberoende häxa. Mogg är hennes svarta katt. Deras vän, Owl, är en antropomorfiserad uggla. De hänger mycket med Werewolf Jones. Detta kan låta som en ren stoner-komedi, men det överskrider genren: dessa karaktärer kämpar utan framgång med att hantera sin depression, drogmissbruk, sexualitet, fattigdom, brist på arbete, brist på ambition och sina komplexa känslor för varandra på sätt som har gjort Megg och Mogg sensationer på Hanselmanns GirlMountain tumblr. Detta är den första samlingen av Hanselmanns verk, befriad från dess besvärliga internetfängelse, och kommer säkert att vara en av de mest omtalade grafiska romanerna från 2014, med alla \"klassiska\" Megg och Mogg-avsnitt från de senaste fem åren samt över 70 sidor med helt nytt material."
       },
       "condition": 2,
-      "qualityNotes": ""
+      "qualityNotes": {
+        "en": "",
+        "sv": ""
+      }
     },
     {
       "id": 5,
@@ -108,7 +120,10 @@
         "description": "Auktoriserad av herr Lipwig från Ankh-Morpork och Sto Plains Hygienic Railway själv, fru Georgina Bradshaws ovärderliga guide till järnvägens destinationer och nöjen förtjänar en plats i bagaget hos alla resenärer, eller faktiskt fåtöljresenärer, på Skivan.\n\nFrån snöretvandringen i Great Slack till soukerna i Zemphis: upplysande sevärdheter längs rutten.\n\nBiljettering, nostrum och transport av din sumpdräke: viktiga tips om resans praktiska aspekter.\n\nEleganta kurorter och pittoreska värdshus: respektabla och sanitära logi för alla arter och höjder.\n\nFrån maskuppfödning till Fustic Cake: underhållande trivialiteter om hantverk, mat och brassica-traditioner hos de många flitiga människorna för vilka järnvägen nu är en livsviktig länk till Ansjovisens århundrade.\n\nFullpackad med användbara småbitar erbjuder fru Bradshaws handbok en vy av Sto Plains som ingen annan. Vackert berättad av Penelope Keith med Michael Fenton Stevens."
       },
       "condition": 1,
-      "qualityNotes": ""
+      "qualityNotes": {
+        "en": "",
+        "sv": ""
+      }
     },
     {
       "id": 6,
@@ -130,7 +145,10 @@
         "description": "Ta dina plasmagevär, trollformelkomponenter och jetpackar! Namnge ditt spel; Fate Core är grunden som kan göra det möjligt. Fate Core är ett flexibelt system som kan stödja vilka världar du än drömmer upp. Har du alltid velat spela en post-apokalyptisk spaghetti-western med tentakelmonster? Svärd och trolldom i rymden? Önskar att det fanns ett spel baserat på din favoritserie av böcker, film eller television, men det hände aldrig? Fate Core är ditt svar.\n\nFate Core är ett rollspel om proaktiva, kapabla människor som lever dramatiska liv. Skapa dina karaktärer och utveckla omedelbar gruppdynamik med vårt unika fasade karaktärsgenereringssystem. Använd dessa karaktärer som en språngbräda till berättande i våra GM-världsbyggarkapitel.\n\nFör de Fate-bekanta, dra nytta av de nya och förbättrade tillvägagångssätten för karaktärsåtgärder, aspekter, tvingar och mer. Med Fate Core är din berättelse upp till dig. Men vad du än väljer kan du förvänta dig en rolig berättelseupplevelse full av vändningar... av ödet."
       },
       "condition": 3,
-      "qualityNotes": "Some light damage to backside of cover"
+      "qualityNotes": {
+        "en": "Some light damage to backside of cover",
+        "sv": "Någon lätt skada på baksidan av omslaget"
+      }
     },
     {
       "id": 7,
@@ -152,7 +170,10 @@
         "description": "Efter att ha njutit av över sex månader på New York Times Bestseller-listan och fått en entusiastisk recension från samma institution, är den hyllade serietecknaren Adrian Tomines Killing and Dying nu tillgänglig i pocket, med ett uppdaterat omslag och franska flikar. Med detta verk bekräftar Tomine (Shortcomings, Scenes from an Impending Marriage) sin plats inte bara som en av de mest betydande skaparna av samtida serier, utan som en av de stora rösterna i modern amerikansk litteratur. Hans gåva att fånga känslor och intellekt resonerar: kärlekens tyngd och dess frånvaro, familjens stolthet och besvikelse, ångesten och hoppfullheten av att vara vid liv i det tjugoförsta århundradet.\n\n\"Amber Sweet\" visar den katastrofala effekten av felaktig identitet i en hyperkopplad värld; \"A Brief History of the Art Form Known as Hortisculpture\" detaljerar uppfinningen och förstörelsen av en vital ny konstform; \"Translated, from the Japanese,\" är en yppig, fullfärgad visning av berättande genom stillbilder; titelberättelsen, \"Killing and Dying,\" fokuserar på föräldraskap, dödlighet och stand-up-komedi. I sex sammanlänkade, mörkt roliga berättelser formar Tomine en tyst rörande porträtt av det samtida livet.\n\nAdrian Tomine är en mästare på den lilla gesten, lika skicklig på att signalera känslor via en subtil förändring av uttryck eller skriven stor över landskap illustrerade i full färg. Killing and Dying är ett laddat, realistiskt mästerverk."
       },
       "condition": 3,
-      "qualityNotes": "Some light damage to plastic covering"
+      "qualityNotes": {
+        "en": "Some light damage to plastic covering",
+        "sv": "Någon lätt skada på plastomslaget"
+      }
     },
     {
       "id": 8,
@@ -174,7 +195,10 @@
         "description": "denna bok är en magisk resa genom livet från tidernas början till ett barns födelse och äventyret som vi tar på vår väg till graven och bortom till stjärnorna. det är en hyllning till att vara mänsklig och alla de vackra sakerna som finns däremellan. då är denna bok för dig eftersom inuti denna bok finns alla dessa saker och efter att ha läst ungefär 5 sidor av den kommer du att vara huvudexperten på mänskligt liv och det kommer inte finnas något i denna värld som du inte kommer att veta. kärlek från din vän chris (simpsons artist) xox."
       },
       "condition": 2,
-      "qualityNotes": ""
+      "qualityNotes": {
+        "en": "",
+        "sv": ""
+      }
     },
     {
       "id": 9,
@@ -196,7 +220,10 @@
         "description": "Den unga robotpojken TIM-21 och hans följeslagare kämpar för att överleva i ett universum där alla androider har förbjudits och skattjägare lurar på varje planet. Skriven av prisbelönta skaparen Jeff Lemire, Descender är en vild och hjärtlig kosmisk odyssé. Lemire sätter mänskligheten mot maskin och värld mot värld för att skapa en vidsträckt epos. Samlar nummer #1-12."
       },
       "condition": 3,
-      "qualityNotes": "Some light damage to covers"
+      "qualityNotes": {
+        "en": "Some light damage to covers",
+        "sv": "Någon lätt skada på omslagen"
+      }
     },
     {
       "id": 10,
@@ -218,7 +245,10 @@
         "description": "Den officiella följeslagaren till den tredje säsongen av den populära Disney XD-serien, Gravity Falls! I denna journal ger Stan Pines dig en chans att skriva ditt eget mysterium! Allt du behöver göra är att fylla i tomrummen, men se upp - hemligheterna i denna journal försöker komma ut! Denna bok inkluderar fullfärgsillustrationer, intervjuer med rollistan och en exklusiv klistermärke!"
       },
       "condition": 2,
-      "qualityNotes": ""
+      "qualityNotes": {
+        "en": "",
+        "sv": ""
+      }
     },
     {
       "id": 11,
@@ -242,7 +272,10 @@
         "description": "Det är också en mörkt komisk sass-och-trolldomsserie med Hannah den Rockabilly Elven Mage, Violet den Hipster Dwarven Fighter, Dee den Ateistiska Human Cleric och Betty den Hippy Smidgen Thief. Denna moderna vridning på en gammal skolgenre är en våldsam monsterdödande epos som är som Buffy möter Tank Girl i en Sagan om ringen-värld på knark!"
       },
       "condition": 2,
-      "qualityNotes": ""
+      "qualityNotes": {
+        "en": "",
+        "sv": ""
+      }
     },
     {
       "id": 12,
@@ -266,7 +299,10 @@
         "description": "År 1988 upptäcker fyra tonårsflickor som levererar tidningar för ett förortsbolag att de är tidsresenärer som skickats tillbaka till det förflutna i en tidsresande tidningslastbil. De måste lära sig att leva i det förflutna medan de försöker återvända till framtiden."
       },
       "condition": 3,
-      "qualityNotes": "Some light damage to covers"
+      "qualityNotes": {
+        "en": "Some light damage to covers",
+        "sv": "Någon lätt skada på omslagen"
+      }
     },
     {
       "id": 13,
@@ -288,7 +324,10 @@
         "description": "Den grafiska romanföljeslagaren (i kvadratbundet, 10 x 10-format) till musikern, singer-songwritern och internetstjärnan JONATHAN COULTONs nya konceptalbum, SOLID STATE. Från JONATHAN COULTON, singer-songwritern bakom Code Monkey och Portal-låtarna; MATT FRACTION, författaren av SEX CRIMINALS, CASANOVA och ODY-C; och tecknad av prisbelönta spanska konstnären av Universe! ALBERT MONTEYS kommer SOLID STATE, en grafisk romanföljeslagare till COULTONs nya konceptalbum med samma namn.\n\nTvå killar, kopplade av ett namn och hundratals år, står på något sätt vid slutet av människans början och början av människans slut. Men... det är roligt? Också lite av en mardröm. Men mestadels roligt? En rolig vetenskapsfaktionsmardröm om slutet på allt, men hur det är lite okej."
       },
       "condition": 3,
-      "qualityNotes": "Some light damage to covers"
+      "qualityNotes": {
+        "en": "Some light damage to covers",
+        "sv": "Någon lätt skada på omslagen"
+      }
     },
     {
       "id": 14,
@@ -310,7 +349,10 @@
         "description": "The Art of Splatoon innehåller 320 otroliga sidor med konstverk, inklusive 2D- och 3D-illustrationer av dina favoritkaraktärer, kartor, konceptkonst, vapen- och utrustningsdesign, storyboards, skisser, handtecknade serier... och det är bara en antydan om vad som finns inuti. Vi skojar inte: detta är ett måste för alla Splatoon-fans!"
       },
       "condition": 1,
-      "qualityNotes": ""
+      "qualityNotes": {
+        "en": "",
+        "sv": ""
+      }
     },
     {
       "id": 15,
@@ -332,7 +374,10 @@
         "description": "Dark Horse Books och Nintendo samarbetar för att ge dig The Legend of Zelda: Hyrule Historia, som innehåller en oöverträffad samling historisk information om The Legend of Zelda-franchisen. Denna ståtliga inbundna volym innehåller aldrig tidigare sedd konceptkonst, den fullständiga historien om Hyrule, den officiella kronologin för spelen och mycket mer! Börjar med en insiktsfull introduktion av den legendariske producenten och videospelsdesignern av Donkey Kong, Mario och The Legend of Zelda, Shigeru Miyamoto, är denna bok fullpackad med information om den berättade historien om Links äventyr från skaparna själva! Som bonus inkluderar The Legend of Zelda: Hyrule Historia en exklusiv serie av den främsta skaparen av The Legend of Zelda-mangan - Akira Himekawa!"
       },
       "condition": 3,
-      "qualityNotes": "Some light damage to cover"
+      "qualityNotes": {
+        "en": "Some light damage to cover",
+        "sv": "Någon lätt skada på omslaget"
+      }
     },
     {
       "id": 16,
@@ -354,7 +399,10 @@
         "description": "Game Art är en samling av häpnadsväckande konceptkonst och bakom-kulisserna-intervjuer från videospelutvecklare, inklusive stora aktörer som Square Enix, Bioware och Ubisoft samt oberoende men inflytelserika studior som Tale of Tales och Compulsion Games. Fördjupa dig i fantastiska konstverk och utforska det kreativa tänkandet bakom över 40 konsol-, mobil- och PC-spel.\n\nEn ensam oberoende utvecklare med en liten budget kan skapa en upplevelse lika kraftfull och övertygande som en triple-A-blockbuster byggd av ett team på 1000. Men som alla konstverk börjar varje spel med en gnista av inspiration och en passion att skapa.\n\nLåt Game Art ta dig på en visuell resa genom dessa vackra världar, som berättat av sinnen som gav dem liv."
       },
       "condition": 3,
-      "qualityNotes": "Some light damage to cover"
+      "qualityNotes": {
+        "en": "Some light damage to cover",
+        "sv": "Någon lätt skada på omslaget"
+      }
     },
     {
       "id": 17,
@@ -376,7 +424,10 @@
         "description": "Samlarobjekt\n\nHan har varit en legend i sin egen livstid. Han kan minnas när en hjälte inte behövde oroa sig för staket och advokater och civilisation, och när människor inte skällde ut dig för att döda drakar. Men han kan inte alltid komma ihåg, dessa dagar, var han lade sina tänder... Så nu, med sitt antika svärd och sin nya käpp och sina gamla vänner - och de är mycket gamla vänner - går Cohen Barbaren på ett sista uppdrag. Han kommer att klättra på det högsta berget i Skivvärlden och träffa sina gudar. Den sista hjälten i världen kommer att returnera vad den första hjälten stal. Med hämnd. Det kommer att betyda världens undergång, om ingen stoppar honom i tid."
       },
       "condition": 3,
-      "qualityNotes": "Some light damage to cover"
+      "qualityNotes": {
+        "en": "Some light damage to cover",
+        "sv": "Någon lätt skada på omslaget"
+      }
     },
     {
       "id": 18,
@@ -398,7 +449,10 @@
         "description": "Ukiyo-e: 139 reproduktioner, grupperade efter konstnär, var och en åtföljd av en detaljerad kommentar. Denna volym reproducerar 139 japanska träblockfärgtryck av 43 berömda mästare av ukiyo-e, den populära konsten från 1600- till 1800-talet. Originalen finns i Riccar Art Museum i Tokyo, världens största och mest hyllade samling av sådana tryck. På grund av deras sällsynthet och värde har 87 av dem utsetts till japanska nationella skatter eller större nationella kulturarvsobjekt."
       },
       "condition": 3,
-      "qualityNotes": "Some light damage to cover"
+      "qualityNotes": {
+        "en": "Some light damage to cover",
+        "sv": "Någon lätt skada på omslaget"
+      }
     },
     {
       "id": 19,
@@ -420,7 +474,10 @@
         "description": "Kallade av det äldre elementära ögat att tjäna har fyra korrupta profeter stigit från anonymitetens djup för att göra anspråk på mäktiga vapen med direkta länkar till elementarprinsarnas kraft. Var och en av dessa profeter har samlat en kader av kultister och varelser för att tjäna dem i konstruktionen av fyra elementära tempel av dödlig design. Det är upp till äventyrarna från heroiska fraktioner som Emerald Enclave och Order of the Gauntlet att upptäcka var den sanna kraften hos varje profet ligger, och demontera den innan den kokar upp för att utplåna Rikena.\n\n• En episk äventyr för karaktärer nivåer 1-15, Elemental Evil™-berättelsebågen, Princes of the Apocalypse ger allt en Dungeon Master behöver för att skapa en spännande och minnesvärd spelupplevelse.\n• Inkluderar nya elementära besvärjelser och elementberörda genasi som en ny spelbar ras."
       },
       "condition": 3,
-      "qualityNotes": "Some light damage to cover"
+      "qualityNotes": {
+        "en": "Some light damage to cover",
+        "sv": "Någon lätt skada på omslaget"
+      }
     },
     {
       "id": 20,
@@ -442,7 +499,10 @@
         "description": "Allt du behöver för att börja spela Dungeons & Dragons är din fantasi, några tärningar och denna bok. Player's Handbook är den viktigaste referensen för varje Dungeons & Dragons-rollspelare. Den innehåller regler för karaktärsskapande och framsteg, bakgrunder och färdigheter, utforskning och strid, utrustning, besvärjelser och mycket mer. Använd denna bok för att skapa spännande karaktärer bland de mest ikoniska D&D-raserna och klasserna."
       },
       "condition": 3,
-      "qualityNotes": "Some light damage to cover"
+      "qualityNotes": {
+        "en": "Some light damage to cover",
+        "sv": "Någon lätt skada på omslaget"
+      }
     },
     {
       "id": 21,
@@ -464,7 +524,10 @@
         "description": "Från EVE Online - ett av de största massivt multiplayer online-rollspelen genom tiderna - kommer en häpnadsväckande epos om interstellär spionage! I de tidiga timmarna den 5 februari 2009 förstörde en spion ensam den aggressiva Band of Brothers-alliansen och satte stopp för det stora kriget, det största kriget i EVE Onlines historia. Inspirerad av faktiska spelardrivna händelser inom EVE Online-universumet berättar superstjärnförfattaren Daniel Way den konstigare-än-fiktion-berättelsen om den mest populära sanna berättelsen under det senaste decenniet!"
       },
       "condition": 4,
-      "qualityNotes": "Some light damage to cover"
+      "qualityNotes": {
+        "en": "Some light damage to cover",
+        "sv": "Någon lätt skada på omslaget"
+      }
     },
     {
       "id": 23,
@@ -486,7 +549,10 @@
         "description": "I Mythic Bastionland är du ett sällskap riddare skickade för att utforska ett rike och söka efter dess myter, vilket kan vara allt från ett monster eller en konstig företeelse till en direkt invasion. När du avslöjar dessa myter får du ära som förbättrar ditt rykte i riket. Du kanske tar en plats vid hovet, beviljas land, eller till och med regera riket själv. När du spelar kommer du att röra dig genom årstider och din riddare kommer att mogna, åldras och till slut dö, så du vill hitta en bra efterträdare.\n\nSystemet följer på från Into the Odd och Electric Bastionland, med extra omsorg om resor, riddarstrid och domänhantering. Det är snabbt, avgörande och tillräckligt enkelt för att plocka upp medan du spelar.\n\nMed fullfärgsillustrationer av Alec Sorensen."
       },
       "condition": 1,
-      "qualityNotes": "Seller ordered a second copy by mistake"
+      "qualityNotes": {
+        "en": "Seller ordered a second copy by mistake",
+        "sv": "Säljaren beställde en andra kopia av misstag"
+      }
     },
     {
       "id": 24,
@@ -508,7 +574,10 @@
         "description": "Inom denna volym finns sju av de mest övertygande fängelsehålorna från Dungeons & Dragons 40+ års historia. Några är klassiker som har varit värd för ett otal äventyrare, medan andra är några av de mest populära äventyren som någonsin tryckts. Fröna till dessa berättelser vilar nu i dina händer. D&D:s mest berättade fängelsehålor är nu en del av ditt moderna äventyrrepertoar. Njut, och kom ihåg att hålla några extra karaktärsblad till hands.\n\nFRUKTANSVÄRDA BERÄTTELSER BERÄTTADE I NATTENS MIDD\n\nNär skuggorna växer långa i Waterdeep och eldstaden i Yawning Portals krogstuga dämpas till en djup karmosinröd glöd, spinner äventyrare från hela Forgotten Realms, och till och med från andra världar, berättelser och sprider rykten om mörka fängelsehålor och förlorade skatter. Några av berättelserna som Durnan, Yawning Portals bartender, hört är inspirerade av platser och händelser i avlägsna länder från hela D&D-multiversumet, och dessa berättelser har samlats i en enda volym."
       },
       "condition": 3,
-      "qualityNotes": "Some light damage to cover"
+      "qualityNotes": {
+        "en": "Some light damage to cover",
+        "sv": "Någon lätt skada på omslaget"
+      }
     },
     {
       "id": 25,
@@ -530,7 +599,10 @@
         "description": "Det skulle vara en massiv underdrift att säga att Super Nintendo (SNES) hade en formidabel handling att följa när den anlände vid 1990-talets gryning. Nintendos tidigare konsol, NES (eller Famicom, som den var känd i sitt hemland Japan), njöt av sju år av nästan oöverträffad dominans efter sin första lansering i Japan 1983; vid 1990 hade den nästan ensamt rehabiliterat hemvideospelsmarknaden och förvandlat Nintendo till ett hushållsnamn över hela världen. Med fokus på Super Famicom i Japan och SNES i Nordamerika och Europa erbjuder SNES/Super Famicom: a visual compendium en visuell ögonblicksbild av de bästa spelen, utvecklarna, boxkonsten och produktdesignen från dessa territorier. Som namnet antyder har vi koncentrerat oss på de fantastiska visuella innehållet i SNES/Famicom-spel, tillsammans med textögonblicksbilder och anekdoter. Resultatet är en visuell följeslagare designad för att väcka upphetsning och nostalgi för denna fantastiska maskin och dess arv av klassiska spel. SNES/Super Famicom: a visual compendium mäter 170mm × 230mm och dess 500+ sidor är tryckta litografiskt till högsta standard. Detta säkerställer att färgerna i boken är riktigt livfulla och sidorna har en hög kvalitet, lyxig känsla. Den kommer också med fyra Super Famicom-färgade bokmärkesband och en 3mm skyddande kartongslipcase med animeradeffekt-lentikulära bilder."
       },
       "condition": 2,
-      "qualityNotes": ""
+      "qualityNotes": {
+        "en": "",
+        "sv": ""
+      }
     },
     {
       "id": 26,
@@ -552,7 +624,10 @@
         "description": "Spridd över mer än 500 sidor recenserar The CRPG Book: A Guide to Computer Role-Playing Games över 400 banbrytande spel från 1975 till 2015, täcker rollspelsklassiker vi alla känner och älskar som Ultima, Wizardry, Fallout och Mass Effect, alla förda till liv med livfulla och engagerande in-game-bilder. Varje inlägg delar också artiklar om genren, modförslag och tips om hur man kör spelen på modern hårdvara. Boken är helt skriven av fans, AAA-utvecklare, indies, journalister, moddare och branschpersonligheter som Chris Avellone, Ian Frazier, Scorpia, Ferhegón, Richard Cobbett, Brian Psychochild Green, Durante, George Weidman och Tim Cain, för att nämna några."
       },
       "condition": 3,
-      "qualityNotes": "One minor bump on side of back cover"
+      "qualityNotes": {
+        "en": "One minor bump on side of back cover",
+        "sv": "En mindre bula på sidan av bakomslaget"
+      }
     },
     {
       "id": 27,
@@ -574,7 +649,10 @@
         "description": "Ken Plume sitter ner med seriens skapare Jackson Publick och Doc Hammer för att ha en konversation om skapandet av varje enskilt avsnitt genom säsong 6 och mycket mer. Från de tidigaste skisserna av Hank och Dean klottrade i en anteckningsbok till att presentera serien för Cartoon Networks Adult Swim, lära sig animationens ins och outs, karaktärsdesigner för varje säsong, storyboards, målade bakgrunder och bakom-kulisserna-minnen av hur showen kom ihop - allt finns här."
       },
       "condition": 2,
-      "qualityNotes": ""
+      "qualityNotes": {
+        "en": "",
+        "sv": ""
+      }
     },
     {
       "id": 28,
@@ -596,7 +674,10 @@
         "description": "Samlarobjekt\n\nFör att fira Nintendo 64 är Geeks-Line stolta att meddela tillgängligheten av en omfattande och grundlig titt på ett av de mest fascinerande Nintendo-spelbiblioteken genom tiderna.\n\nGenom de 380+ sidorna i Nintendo 64 Anthology-boken spårar författaren Math Manent den 64-bitars Nintendo-konsolens utveckling och liv genom många intervjuer med nyckelspelarna i dess liv, nya anekdoter, en komplett historia om maskinens genesis och en detaljerad beskrivning av var och en av de 388 spelen som släpptes under systemets livslängd. Naturligtvis glöms inte Collector's Edition-spel och paket bort i denna state-of-the-art-bok."
       },
       "condition": 2,
-      "qualityNotes": ""
+      "qualityNotes": {
+        "en": "",
+        "sv": ""
+      }
     },
     {
       "id": 29,
@@ -618,7 +699,10 @@
         "description": "Puke Force är social satir skriven mörk och tät över Brian Chippendales dekonstruerade multiversum av gående, talande M&Ms, hamstrar och cykloptiska-men-glamorösa trivialitetsvärdar. I skarpt roliga enkelsidiga serier som bygger och bygger tar han itu med sociala medier-narcissism, statlig propaganda, rasism och en våldskultur, spetsar högerns ondska och vänsterns hyckleri.\n\nEn bomb exploderar i en kaffeshop: händelsen spelas ut om och om igen ur perspektivet av varje bord i butiken, återbesöker ögonblick från tio och tjugo år tidigare. Vi ser det oundvikliga när karaktärerna grälar eller firar, omedvetna om vad som kommer. Genom denna dystopiska grafiska roman använder Chippendale humor och en frenetisk teckningsstil för att visa hur den lömska naturen hos företagsgirighet och kommodifieringen av allt har förvrängt samhället till en dödsmaskin."
       },
       "condition": 2,
-      "qualityNotes": ""
+      "qualityNotes": {
+        "en": "",
+        "sv": ""
+      }
     },
     {
       "id": 30,
@@ -640,7 +724,10 @@
         "description": "Lily Hoshino, den älskade konstnären bakom Mawaru Penguindrum, erbjuder sin söta och vridna tolkning av den magiska flickgenren. Du har förmodligen aldrig tänkt att Sailor Moon behövde fler heta äldre killar i fullkroppsmaskotkostymer, men Kigurumi Guardians kommer att övertyga dig!\n\nDEN UTVALDA\n\nHakka Sasakuras liv håller på att vändas upp och ner. Hon kommer hem från en dag av att beundra sin elevkårspresident för att upptäcka att en mystisk varelse som liknar en man i en djurdräkt har tagit upp boende i hennes hem. Dessutom har hon valts att arbeta med denna konstiga varelse för att bekämpa inkräktare från en annan dimension och rädda världen... och hon måste kyssa honom för att göra det?!"
       },
       "condition": 3,
-      "qualityNotes": "Some wear and tear on cover from being read"
+      "qualityNotes": {
+        "en": "Some wear and tear on cover from being read",
+        "sv": "Något slitage på omslaget från att ha lästs"
+      }
     },
     {
       "id": 31,
@@ -662,7 +749,10 @@
         "description": "När det lanserades i maj 2016 tog Overwatch världen med storm, med miljontals spelare och fick kritisk hyllning. Nu, i denna vackra inbundna volym, avslöjar Blizzard Entertainment den kreativa processen bakom ett av de mest populära FPS-spelen genom tiderna! Fylld med aldrig tidigare sedd konst samt kommentarer från spelsutvecklingsteamet kommer denna bok säkert att glädja alla Overwatch-fans!\n\n* Viktig följeslagare till Overwatch, ett av 2016:s mest kritiskt hyllade spel!\n\n* Introduktion och kommentarer från spelsutvecklingsteamet!"
       },
       "condition": 3,
-      "qualityNotes": "Some light damage to cover"
+      "qualityNotes": {
+        "en": "Some light damage to cover",
+        "sv": "Någon lätt skada på omslaget"
+      }
     },
     {
       "id": 32,
@@ -684,7 +774,10 @@
         "description": "Samlar de tidiga åren av Capcom-konstverk producerade av förlaget och kreativa studion UDON Entertainment! Denna episka 320-sidiga inbundna volym samlar mer än 60 UDON-konstnärers tolkningar av rollbesättningarna i Street Fighter, Darkstalkers, Rival Schools och andra klassiska Capcom-franchiser. Inkluderade är serietidningsomslag, kortspelskonst, videospelsavslut, speldoskonst, hyllningsillustrationer och mycket mer!"
       },
       "condition": 2,
-      "qualityNotes": ""
+      "qualityNotes": {
+        "en": "",
+        "sv": ""
+      }
     },
     {
       "id": 33,
@@ -706,7 +799,10 @@
         "description": "PlayStation Vita (officiellt förkortat PS Vita eller Vita; inofficiellt PS-Vita eller PSV) är en handhållen spelkonsol utvecklad av Sony Interactive Entertainment. Det är efterträdaren till PlayStation Portable (aka PSP) som en del av PlayStation-varumärket för spelapparater. Den släpptes i Japan den 17 december 2011, med lanseringar i Nordamerika, Europa och andra världsomspännande regioner som började den 22 februari 2012. Den konkurrerade främst med Nintendo 3DS som en del av den åttonde generationen av videospelskonsoler."
       },
       "condition": 3,
-      "qualityNotes": "Some wear from use, but functioning perfectly with the superior OLED screen"
+      "qualityNotes": {
+        "en": "Some wear from use, but functioning perfectly with the superior OLED screen",
+        "sv": "Något slitage från användning, men fungerar perfekt med den överlägsna OLED-skärmen"
+      }
     },
     {
       "id": 34,
@@ -729,7 +825,10 @@
       },
       "subcategory": "vita",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 35,
@@ -752,7 +851,10 @@
       },
       "subcategory": "vita",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 36,
@@ -775,7 +877,10 @@
       },
       "subcategory": "vita",
       "condition": 2,
-      "qualityNotes": ""
+      "qualityNotes": {
+        "en": "",
+        "sv": ""
+      }
     },
     {
       "id": 37,
@@ -798,7 +903,10 @@
       },
       "subcategory": "vita",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 38,
@@ -821,7 +929,10 @@
       },
       "subcategory": "ps4",
       "condition": 2,
-      "qualityNotes": "Some light wear from use"
+      "qualityNotes": {
+        "en": "Some light wear from use",
+        "sv": "Some light wear from use"
+      }
     },
     {
       "id": 39,
@@ -844,7 +955,10 @@
       },
       "subcategory": "ps4",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 40,
@@ -867,7 +981,10 @@
       },
       "subcategory": "ps4",
       "condition": 3,
-      "qualityNotes": "Never played, but some wear to cover"
+      "qualityNotes": {
+        "en": "Never played, but some wear to cover",
+        "sv": "Aldrig spelat, men något slitage på omslaget"
+      }
     },
     {
       "id": 41,
@@ -890,7 +1007,10 @@
       },
       "subcategory": "ps4",
       "condition": 2,
-      "qualityNotes": ""
+      "qualityNotes": {
+        "en": "",
+        "sv": ""
+      }
     },
     {
       "id": 42,
@@ -913,7 +1033,10 @@
       },
       "subcategory": "ps4",
       "condition": 2,
-      "qualityNotes": ""
+      "qualityNotes": {
+        "en": "",
+        "sv": ""
+      }
     },
     {
       "id": 43,
@@ -936,7 +1059,10 @@
       },
       "subcategory": "ps4",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 44,
@@ -959,7 +1085,10 @@
       },
       "subcategory": "ps4",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 45,
@@ -982,7 +1111,10 @@
       },
       "subcategory": "ps4",
       "condition": 2,
-      "qualityNotes": ""
+      "qualityNotes": {
+        "en": "",
+        "sv": ""
+      }
     },
     {
       "id": 46,
@@ -1005,7 +1137,10 @@
       },
       "subcategory": "ps4",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 47,
@@ -1028,7 +1163,10 @@
       },
       "subcategory": "3ds",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 48,
@@ -1051,7 +1189,10 @@
       },
       "subcategory": "3ds",
       "condition": 4,
-      "qualityNotes": "Some damage to box"
+      "qualityNotes": {
+        "en": "Some damage to box",
+        "sv": "Någon skada på lådan"
+      }
     },
     {
       "id": 49,
@@ -1074,7 +1215,10 @@
       },
       "subcategory": "3ds",
       "condition": 3,
-      "qualityNotes": "Light dent on box. Never played"
+      "qualityNotes": {
+        "en": "Light dent on box. Never played",
+        "sv": "Lätt buckla på lådan. Aldrig spelat"
+      }
     },
     {
       "id": 50,
@@ -1097,7 +1241,10 @@
       },
       "subcategory": "3ds",
       "condition": 1,
-      "qualityNotes": ""
+      "qualityNotes": {
+        "en": "",
+        "sv": ""
+      }
     },
     {
       "id": 51,
@@ -1120,7 +1267,10 @@
       },
       "subcategory": "3ds",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 52,
@@ -1143,7 +1293,10 @@
       },
       "subcategory": "3ds",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 53,
@@ -1166,7 +1319,10 @@
       },
       "subcategory": "3ds",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 54,
@@ -1189,7 +1345,10 @@
       },
       "subcategory": "3ds",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 55,
@@ -1212,7 +1371,10 @@
       },
       "subcategory": "3ds",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 56,
@@ -1235,7 +1397,10 @@
       },
       "subcategory": "3ds",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 57,
@@ -1258,7 +1423,10 @@
       },
       "subcategory": "3ds",
       "condition": 2,
-      "qualityNotes": ""
+      "qualityNotes": {
+        "en": "",
+        "sv": ""
+      }
     },
     {
       "id": 58,
@@ -1281,7 +1449,10 @@
       },
       "subcategory": "3ds",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 59,
@@ -1304,7 +1475,10 @@
       },
       "subcategory": "3ds",
       "condition": 2,
-      "qualityNotes": ""
+      "qualityNotes": {
+        "en": "",
+        "sv": ""
+      }
     },
     {
       "id": 60,
@@ -1327,7 +1501,10 @@
       },
       "subcategory": "3ds",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 61,
@@ -1350,7 +1527,10 @@
       },
       "subcategory": "3ds",
       "condition": 2,
-      "qualityNotes": ""
+      "qualityNotes": {
+        "en": "",
+        "sv": ""
+      }
     },
     {
       "id": 62,
@@ -1373,7 +1553,10 @@
       },
       "subcategory": "3ds",
       "condition": 2,
-      "qualityNotes": ""
+      "qualityNotes": {
+        "en": "",
+        "sv": ""
+      }
     },
     {
       "id": 63,
@@ -1396,7 +1579,10 @@
       },
       "subcategory": "3ds",
       "condition": 1,
-      "qualityNotes": ""
+      "qualityNotes": {
+        "en": "",
+        "sv": ""
+      }
     },
     {
       "id": 64,
@@ -1419,7 +1605,10 @@
       },
       "subcategory": "3ds",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 65,
@@ -1442,7 +1631,10 @@
       },
       "subcategory": "3ds",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 66,
@@ -1465,7 +1657,10 @@
       },
       "subcategory": "3ds",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 67,
@@ -1488,7 +1683,10 @@
       },
       "subcategory": "3ds",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 69,
@@ -1511,7 +1709,10 @@
       },
       "subcategory": "3ds",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 72,
@@ -1534,7 +1735,10 @@
       },
       "subcategory": "3ds",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 74,
@@ -1557,7 +1761,10 @@
       },
       "subcategory": "3ds",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 75,
@@ -1580,7 +1787,10 @@
       },
       "subcategory": "3ds",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 76,
@@ -1603,7 +1813,10 @@
       },
       "subcategory": "3ds",
       "condition": 1,
-      "qualityNotes": ""
+      "qualityNotes": {
+        "en": "",
+        "sv": ""
+      }
     },
     {
       "id": 77,
@@ -1626,7 +1839,10 @@
       },
       "subcategory": "3ds",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 78,
@@ -1649,7 +1865,10 @@
       },
       "subcategory": "3ds",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 80,
@@ -1672,7 +1891,10 @@
       },
       "subcategory": "3ds",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 81,
@@ -1695,7 +1917,10 @@
       },
       "subcategory": "3ds",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 82,
@@ -1717,7 +1942,10 @@
         "description": "The Necessary Beggar är en vuxen science fiction-roman skriven av Susan Palwick. Publicerad den 1 oktober 2005 av Tor Books är det författarens andra roman. Boken fick Alex Award 2006 och nominerades till Mythopoeic Fantasy Award 2007."
       },
       "condition": 4,
-      "qualityNotes": ""
+      "qualityNotes": {
+        "en": "",
+        "sv": ""
+      }
     },
     {
       "id": 83,
@@ -1739,7 +1967,10 @@
         "description": "Betraktad som JavaScript-experten av många människor i utvecklingsgemenskapen identifierar författaren Douglas Crockford överflödet av bra idéer som gör JavaScript till ett utmärkt objektorienterat programmeringsspråk - idéer som funktioner, lös typning, dynamiska objekt och en uttrycksfull objektlitteralnotation. Tyvärr är dessa bra idéer blandade med dåliga och direkt hemska idéer, som en programmeringsmodell baserad på globala variabler.\n\nNär Java-applets misslyckades blev JavaScript webbens språk som standard, vilket gjorde dess popularitet nästan helt oberoende av dess kvaliteter som programmeringsspråk. I JavaScript: The Good Parts gräver Crockford äntligen genom den ångande högen av goda intentioner och misstag för att ge dig en detaljerad titt på alla de verkligt eleganta delarna av JavaScript."
       },
       "condition": 4,
-      "qualityNotes": ""
+      "qualityNotes": {
+        "en": "",
+        "sv": ""
+      }
     },
     {
       "id": 84,
@@ -1761,7 +1992,10 @@
         "description": "The Pragmatic Programmer: From Journeyman to Master är en bok om datorprogrammering och mjukvaruteknik, skriven av Andrew Hunt och David Thomas och publicerad i oktober 1999. Den används som lärobok i relaterade universitetskurser. Det var den första i en serie böcker under etiketten The Pragmatic Bookshelf. En andra utgåva, The Pragmatic Programmer: Your Journey to Mastery släpptes 2019 för bokens 20-årsjubileum, med större revisioner och nytt material som återspeglar ny teknik och andra förändringar i mjukvaruteknikindustrin under de föregående tjugo åren."
       },
       "condition": 4,
-      "qualityNotes": ""
+      "qualityNotes": {
+        "en": "",
+        "sv": ""
+      }
     },
     {
       "id": 85,
@@ -1783,7 +2017,10 @@
         "description": "Översatt till mer än sjutton språk är Drawing on the Right Side of the Brain världens mest använda instruktionsritbok. Oavsett om du ritar som professionell konstnär, som konstnär i träning eller som hobby kommer denna bok att ge dig större självförtroende i din förmåga och fördjupa din konstnärliga uppfattning, samt främja en ny uppskattning av världen omkring dig."
       },
       "condition": 2,
-      "qualityNotes": ""
+      "qualityNotes": {
+        "en": "",
+        "sv": ""
+      }
     },
     {
       "id": 86,
@@ -1809,7 +2046,10 @@
         "description": "Spela hemma eller på farten med ett system. Nintendo Switch™-systemet är designat för att gå vart du än går, förvandlas omedelbart från en hemkonsol du spelar på TV till ett bärbart system du kan spela var som helst. Så du får mer tid att spela spelen du älskar, hur du än vill."
       },
       "condition": 4,
-      "qualityNotes": "Well-used, though in good condition"
+      "qualityNotes": {
+        "en": "Well-used, though in good condition",
+        "sv": "Väl använd, men i gott skick"
+      }
     },
     {
       "id": 87,
@@ -1832,7 +2072,10 @@
       },
       "subcategory": "switch",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 88,
@@ -1854,7 +2097,10 @@
         "description": "Mass Effect utspelar sig i ett rikt och mångsidigt universum hundratals år i vår framtid. Utmaningen att skapa en trovärdig vision för mänskligheten och en galax av antika och exotiska utomjordiska raser gavs till BioWares talangfulla konst- och designteam. De började i en formlös tomhet och formade sina världar, sina raser och sina civilisationer för att sluta med en levande andande miljö exklusiv för Xbox 360.\n\nFrån en massiv rymdcitadell vars ursprung är förlorade i tiden till den utilitära klädseln hos gränskolonister behöver varje komponent, oavsett om den är liten eller kolossal, avvikande eller vanlig, inom Mass Effect-universumet föras till detaljerat liv.\n\nI denna fantastiska volym, ta ett exklusivt steg tillbaka till när detta universum fortfarande bildades i denna sammanställning av konst, bilder och kommentarer tagna direkt från konstnärernas skissböcker när de skapade Mass Effect-universumet."
       },
       "condition": 3,
-      "qualityNotes": "Some damage to cover"
+      "qualityNotes": {
+        "en": "Some damage to cover",
+        "sv": "Some damage to cover"
+      }
     },
     {
       "id": 89,
@@ -1877,7 +2123,10 @@
       },
       "subcategory": "vita",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 90,
@@ -1900,7 +2149,10 @@
       },
       "subcategory": "ps4",
       "condition": 4,
-      "qualityNotes": "Never player, though some cleaning of game box required"
+      "qualityNotes": {
+        "en": "Never played, though some cleaning of game box required",
+        "sv": "Aldrig spelat, men lite rengöring av spellädan krävs"
+      }
     },
     {
       "id": 91,
@@ -1923,7 +2175,10 @@
       },
       "subcategory": "3ds",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 92,
@@ -1946,7 +2201,10 @@
       },
       "subcategory": "3ds",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 93,
@@ -1969,7 +2227,10 @@
       },
       "subcategory": "3ds",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 900,
@@ -1991,7 +2252,10 @@
         "description": "I detta press-your-luck-bluffspel tjänar du poäng genom att bjuda på hur många drag av ditt vapens avtryckare du kan överleva. Ju fler drag, desto fler poäng... men också desto mer sannolikt att du förlorar 1 av dina 4 lagkamrater. Var den sista som lever eller den första som når 15 segerspoäng för att vinna!"
       },
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 901,
@@ -2013,7 +2277,10 @@
         "description": "Kör offensivt! Car Wars är ett spel med motorvägar i framtiden där väjningsrätten går till dem med de största vapnen. Spelare väljer sitt fordon - komplett med vapen, pansar, kraftverk, fjädring och till och med karosseristil - sedan tar de ut dem på vägen, antingen för att komma hem som \"ess\" eller för att krascha och brinna. Om en förare överlever förbättras hans förmågor och han kan tjäna pengar för att köpa större och bättre bilar. Avancerade regler låter spelare designa sina egna anpassade bilar, lastbilar och cyklar."
       },
       "condition": 3,
-      "qualityNotes": "Played once"
+      "qualityNotes": {
+        "en": "Played once",
+        "sv": "Spelat en gång"
+      }
     },
     {
       "id": 902,
@@ -2035,7 +2302,10 @@
         "description": "One Night Revolution (tidigare One Night Resistance) är ett supersnabbt spel med hemliga identiteter för 3 till 10 spelare som kombinerar alla de deduktiva och kaotiskt roliga elementen från One Night Ultimate Werewolf-serien med mer strukturerad gameplay. Resultatet är ett mycket beroendeframkallande spel som är lätt att lära sig och kommer att spelas om och om igen."
       },
       "condition": 2,
-      "qualityNotes": "Played once"
+      "qualityNotes": {
+        "en": "Played once",
+        "sv": "Spelat en gång"
+      }
     },
     {
       "id": 903,
@@ -2057,7 +2327,10 @@
         "description": "King of New York är ett fristående spel från designern Richard Garfield som behåller kärnidéerna i King of Tokyo medan det introducerar nya sätt att spela. Som i KoT är ditt mål att vara det första monstret som samlar 20 segerspoäng (VPs) eller att vara det sista monstret som står kvar. På din tur kastar du sex tärningar upp till tre gånger, sedan utför du handlingarna på dessa tärningar. Klor orsakar skada på andra monster, hjärtan läker skada på dig själv, och energi lagras upp så att du kan köpa kraftkort som ger unika effekter som inte är tillgängliga för någon annan."
       },
       "condition": 3,
-      "qualityNotes": "Played twice"
+      "qualityNotes": {
+        "en": "Played twice",
+        "sv": "Spelat två gånger"
+      }
     },
     {
       "id": 904,
@@ -2079,7 +2352,10 @@
         "description": "OGRE och dess uppföljare G.E.V. är taktiska markstridsspel som utspelar sig i den inte så avlägsna framtiden. År 2085 e.Kr. fortsätter pansarkrigföringen - snabbare och dödligare än någonsin. Svävare, stridsvagnar och infanteri slåss med taktiska kärnvapen. Men det mest fruktade vapnet av alla behöver ingen mänsklig vägledning. Det är en jättelik kybernetisk stridsvagn som kallas OGRE.\n\nDet grundläggande OGRE-spelet ger en spelare en styrka av infanteri och pansar, och en kommandopost som han måste försvara. Den andra spelaren har bara en enhet - men det är en OGRE. Det är en jämn match. Avancerade spel tillåter solitär eller flerspelaraktion, med OGREs på båda sidor."
       },
       "condition": 3,
-      "qualityNotes": "Played once"
+      "qualityNotes": {
+        "en": "Played once",
+        "sv": "Spelat en gång"
+      }
     },
     {
       "id": 905,
@@ -2101,7 +2377,10 @@
         "description": "Camel Up är ett brädspel för två till åtta spelare. Det designades av Steffen Bogen och illustrerades av Dennis Lohausen, och publicerades 2014 av Pegasus Spiele. Spelare satsar på ett kamellopp i öknen; spelaren som vinner mest pengar är spelets vinnare. Camel Up vann Spiel des Jahres 2014."
       },
       "condition": 3,
-      "qualityNotes": "Box slightly damaged, but game is perfect, only played 3 times"
+      "qualityNotes": {
+        "en": "Box slightly damaged, but game is perfect, only played 3 times",
+        "sv": "Lådan lite skadad, men spelet är perfekt, bara spelat 3 gånger"
+      }
     },
     {
       "id": 906,
@@ -2122,7 +2401,10 @@
         "description": "Oculus Rift är en nedlagd produktlinje av virtual reality-headset utvecklade och tillverkade av Oculus VR, ett virtual reality-företag grundat av Palmer Luckey som allmänt tillskrivs att ha återupplivat virtual reality-industrin. Det var det första virtual reality-headsetet som gav en realistisk upplevelse till ett tillgängligt pris, med ny teknik för att öka kvaliteten och minska kostnaden med flera storleksordningar jämfört med tidigare system. Det första headsetet i serien var Oculus Rift Development Kit 1 (DK1), släppt den 28 mars 2013. Det sista var Oculus Rift S, som lades ner i april 2021."
       },
       "condition": 4,
-      "qualityNotes": "Well-used, though in good condition"
+      "qualityNotes": {
+        "en": "Well-used, though in good condition",
+        "sv": "Väl använd, men i gott skick"
+      }
     },
     {
       "id": 907,
@@ -2145,7 +2427,10 @@
       },
       "subcategory": "switch",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 908,
@@ -2168,7 +2453,10 @@
       },
       "subcategory": "switch",
       "condition": 2,
-      "qualityNotes": ""
+      "qualityNotes": {
+        "en": "",
+        "sv": ""
+      }
     },
     {
       "id": 909,
@@ -2191,7 +2479,10 @@
       },
       "subcategory": "switch",
       "condition": 2,
-      "qualityNotes": ""
+      "qualityNotes": {
+        "en": "",
+        "sv": ""
+      }
     },
     {
       "id": 910,
@@ -2214,7 +2505,10 @@
       },
       "subcategory": "switch",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 911,
@@ -2237,7 +2531,10 @@
       },
       "subcategory": "switch",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 912,
@@ -2261,7 +2558,10 @@
       },
       "subcategory": "switch",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 913,
@@ -2284,7 +2584,10 @@
       },
       "subcategory": "switch",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 914,
@@ -2306,7 +2609,10 @@
         "description": "Sällsynt samlarobjekt\n\nUpptäck amigo, ett helt nytt sätt att interagera med dina favoritkaraktärer och spel. Plague Knight, Spectre Knight och King Knight låser upp extra funktioner i Shovel Knight-skattskattssagan på Nintendo Switch, Nintendo 3DS eller Wii U. Läs mer om kommande Shovel Knight amigo-figurer och kompatibla spel på vår webbplats. I Shovel Knight-skattskattsspelet ensamt låser du upp följande: Exklusiv rustningsuppsättning för varje karaktär! Sätt på en mer olycksbådande dräkt med lich Lord Spectre Knight och spela med stil! Dessa unika rustningar är endast kosmetiska så du kan blanda och matcha dem med dina favoritrustningseffekter som redan finns i spelet! Nya amigo-utmaningsscener! Ta på dig ytterligare utmaningsscener som din favoritkaraktär och sätt dina färdigheter på prov! Kalla på amigo-fairy-följeslagare! Älvor är i luften! Liksom spadens älva tar dessa älvor flyg för att följa dig på vilken kampanj som helst, medan de ger lite extra glädje till dina äventyr! Oroa dig inte, de kommer inte att komma i vägen eller störa ditt spel."
       },
       "condition": 1,
-      "qualityNotes": ""
+      "qualityNotes": {
+        "en": "",
+        "sv": ""
+      }
     },
     {
       "id": 930,
@@ -2329,7 +2635,10 @@
       },
       "subcategory": "3ds",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 1000,
@@ -2352,7 +2661,10 @@
       },
       "subcategory": "3ds",
       "condition": 3,
-      "qualityNotes": ""
+      "qualityNotes": {
+        "en": "",
+        "sv": ""
+      }
     },
     {
       "id": 1001,
@@ -2375,7 +2687,10 @@
       },
       "subcategory": "3ds",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 1002,
@@ -2400,7 +2715,10 @@
         "description": "PlayStation 4 (PS4) är en hemvideospelskonsol utvecklad av Sony Interactive Entertainment. Meddelad som efterträdaren till PlayStation 3 i februari 2013 lanserades den den 15 november 2013 i Nordamerika, den 29 november 2013 i Europa, Sydamerika och Australien, och den 22 februari 2014 i Japan. En konsol av den åttonde generationen konkurrerar den med Microsofts Xbox One och Nintendos Wii U och Switch."
       },
       "condition": 3,
-      "qualityNotes": "A little dusty, but in good condition"
+      "qualityNotes": {
+        "en": "A little dusty, but in good condition",
+        "sv": "Lite dammig, men i gott skick"
+      }
     },
     {
       "id": 1003,
@@ -2423,7 +2741,10 @@
       },
       "subcategory": "3ds",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 1004,
@@ -2446,7 +2767,10 @@
       },
       "subcategory": "3ds",
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 1005,
@@ -2469,7 +2793,10 @@
       },
       "subcategory": "3ds",
       "condition": 3,
-      "qualityNotes": ""
+      "qualityNotes": {
+        "en": "",
+        "sv": ""
+      }
     },
     {
       "id": 1006,
@@ -2491,7 +2818,10 @@
         "description": "I den nära framtiden kan nanodrogen Nexus länka sinne till sinne. Det finns de som vill förbättra den. Det finns de som vill utrota den. Och det finns andra som bara vill utnyttja den. När en ung forskare fångas på bar gärning med att förbättra Nexus, kastas han över huvudet in i en värld av fara och internationell spionage, med mycket mer på spel än någon inser."
       },
       "condition": 1,
-      "qualityNotes": ""
+      "qualityNotes": {
+        "en": "",
+        "sv": ""
+      }
     },
     {
       "id": 1007,
@@ -2514,7 +2844,10 @@
         "description": "Den senaste i en lång och ärorik linje av Blood Bowl-säsonger representerar detta nästa steg i tre decennier av utveckling. Med nya och förbättrade regler, strömlinjeformad spelmekanik och ett förfinat kampanjsystem är allas favoritspel av fantasyfotboll tillbaka och bättre än någonsin.\n\nSpela som tränare för ett lag av Imperial Nobility eller Black Orc Blood Bowl-spelare som slåss på planen i stora arenor. Spela för rikedom, stolthet och för att underhålla horder av ditt lags hängivna fans. Du bestämmer uppställningen och väljer taktiken, men kom ihåg... \"Det är inte vinnandet eller förlorandet som räknas, det är kaoset och våldet som gäller!\""
       },
       "condition": 3,
-      "qualityNotes": "Box was opened, rulebook read, then put back, otherwise same as retail"
+      "qualityNotes": {
+        "en": "Box was opened, rulebook read, then put back, otherwise same as retail",
+        "sv": "Lådan öppnades, regelboken lästes, sedan lades tillbaka, annars samma som i butik"
+      }
     },
     {
       "id": 1008,
@@ -2537,7 +2870,10 @@
         "description": "I detta superlätta att lära press-your-luck-spel finns det bara en fråga du måste ställa dig själv: att dricka eller inte dricka? Drick mest lemonad och du vinner... men akta dig! Vissa människor har sett Little Johnny, grannskapets buse, smyga omkring, och du kanske slutar med att dricka något... Det är inte lemonad!"
       },
       "condition": 2,
-      "qualityNotes": "Never played"
+      "qualityNotes": {
+        "en": "Never played",
+        "sv": "Aldrig spelat"
+      }
     },
     {
       "id": 1009,
@@ -2559,7 +2895,10 @@
         "description": "One Night Ultimate Werewolf är ett snabbt spel där alla får vara en annan roll. Under loppet av bara en natt och följande morgon kommer spelarna att avgöra vem bland dem som är en varulv förhoppningsvis. One Night Ultimate Werewolf är ett mikrospel av partyspelet Ultimate Werewolf som inte behöver en moderator. Det finns ingen eliminering och varje spel varar cirka 10 minuter."
       },
       "condition": 3,
-      "qualityNotes": "Played a few times, everything is in good condition"
+      "qualityNotes": {
+        "en": "Played a few times, everything is in good condition",
+        "sv": "Spelat några gånger, allt är i gott skick"
+      }
     },
     {
       "id": 1010,
@@ -2581,7 +2920,10 @@
         "description": "I detta sociala spel med dolda roller och deduktion delas spelarna in i 2 olika rum. Hitta dina lagkamrater, etablera förtroende och byt gisslan innan tiden går ut och bomben exploderar! Det är partyspelet som alltid är en smäll."
       },
       "condition": 2,
-      "qualityNotes": "Barely used, played about 3 times"
+      "qualityNotes": {
+        "en": "Barely used, played about 3 times",
+        "sv": "Knappt använd, spelat cirka 3 gånger"
+      }
     }
   ]
 }

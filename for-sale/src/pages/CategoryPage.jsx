@@ -19,6 +19,8 @@ function CategoryPage() {
   const lastViewKeyRef = useRef('');
   const isRestoringRef = useRef(false);
   const periodicSaveEnabledRef = useRef(true);
+  const headerRef = useRef(null);
+  const spacerRef = useRef(null);
 
   // Get subcategory from URL query params
   const selectedSubcategory = searchParams.get('subcategory') || null;
@@ -42,6 +44,25 @@ function CategoryPage() {
       window.history.scrollRestoration = 'manual';
     }
   }, []);
+
+  // Set spacer height to match header height on desktop (including navbar offset)
+  useEffect(() => {
+    if (window.innerWidth >= 769 && headerRef.current && spacerRef.current && category) {
+      const updateSpacerHeight = () => {
+        if (headerRef.current && spacerRef.current) {
+          const headerHeight = headerRef.current.offsetHeight;
+          const navbarHeight = 60; // Approximate navbar height
+          spacerRef.current.style.height = `${navbarHeight + headerHeight}px`;
+        }
+      };
+      // Use setTimeout to ensure DOM is updated
+      setTimeout(updateSpacerHeight, 0);
+      // Also update after a short delay to ensure content is rendered
+      setTimeout(updateSpacerHeight, 100);
+      window.addEventListener('resize', updateSpacerHeight);
+      return () => window.removeEventListener('resize', updateSpacerHeight);
+    }
+  }, [category, selectedSubcategory, language]);
 
   useEffect(() => {
     Promise.all([
@@ -266,29 +287,32 @@ function CategoryPage() {
 
   return (
     <div className="category-page">
-      <Link to={addLanguageToPath("/")} className="back-link">{text.backToCategories}</Link>
-      <h1>{category[language]?.name || category.en?.name}</h1>
-      
-      {/* Subcategory filters */}
-      {subcategories.length > 0 && (
-        <div className="subcategory-filters">
-          <button
-            className={`subcategory-filter ${selectedSubcategory === null ? 'active' : ''}`}
-            onClick={() => handleSubcategoryChange(null)}
-          >
-            All
-          </button>
-          {subcategories.map((subcat) => (
+      <div className="category-header" ref={headerRef}>
+        <Link to={addLanguageToPath("/")} className="back-link">{text.backToCategories}</Link>
+        <h1>{category[language]?.name || category.en?.name}</h1>
+        
+        {/* Subcategory filters */}
+        {subcategories.length > 0 && (
+          <div className="subcategory-filters">
             <button
-              key={subcat.id}
-              className={`subcategory-filter ${selectedSubcategory === subcat.id ? 'active' : ''}`}
-              onClick={() => handleSubcategoryChange(subcat.id)}
+              className={`subcategory-filter ${selectedSubcategory === null ? 'active' : ''}`}
+              onClick={() => handleSubcategoryChange(null)}
             >
-              {subcat[language]?.name || subcat.en?.name}
+              All
             </button>
-          ))}
-        </div>
-      )}
+            {subcategories.map((subcat) => (
+              <button
+                key={subcat.id}
+                className={`subcategory-filter ${selectedSubcategory === subcat.id ? 'active' : ''}`}
+                onClick={() => handleSubcategoryChange(subcat.id)}
+              >
+                {subcat[language]?.name || subcat.en?.name}
+              </button>
+            ))}
+          </div>
+        )}
+      </div>
+      <div className="category-header-spacer" ref={spacerRef}></div>
       
       {activeItems.length === 0 ? (
         <p className="no-items">No items available{selectedSubcategory ? ' in this subcategory' : ' in this category'}.</p>
@@ -303,7 +327,7 @@ function CategoryPage() {
             >
               {item.images && item.images.length > 0 && (
                 <div className="item-image">
-                  <img src={normalizeImagePath(item.images[0])} alt={item[language]?.title || item.en?.title} />
+                  <img src={normalizeImagePath(item.images[0])} alt={item[language]?.title || item.en?.title} loading="lazy" />
                 </div>
               )}
               <div className="item-content">

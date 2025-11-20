@@ -1,5 +1,10 @@
 .category-page {
   animation: fadeIn 0.5s;
+  position: relative;
+}
+
+.category-header {
+  background: white;
 }
 
 @keyframes fadeIn {
@@ -15,11 +20,12 @@
 
 .back-link {
   display: inline-block;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   color: #667eea;
   text-decoration: none;
   font-weight: 500;
   transition: opacity 0.2s;
+  font-size: 1rem;
 }
 
 .back-link:hover {
@@ -126,6 +132,46 @@
   padding: 3rem;
   font-size: 1.2rem;
   color: #666;
+}
+
+/* Fixed header on desktop - never scrolls */
+@media (min-width: 769px) {
+  .category-header {
+    position: fixed;
+    top: 60px; /* Account for navbar height (~60px) */
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    z-index: 100;
+    padding: 1.5rem 2rem 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    max-width: 1200px;
+    width: calc(100% - 4rem);
+    box-sizing: border-box;
+    height: auto;
+  }
+  
+  .category-header .back-link {
+    margin-bottom: 1rem;
+    display: block;
+  }
+  
+  .category-header h1 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+  
+  .category-header .subcategory-filters {
+    margin-bottom: 0;
+    padding-bottom: 0.75rem;
+  }
+  
+  /* Spacer to push content down below fixed header */
+  .category-header-spacer {
+    height: 200px; /* Initial height, will be set dynamically by JS */
+    flex-shrink: 0;
+  }
 }
 
 @media (max-width: 768px) {
